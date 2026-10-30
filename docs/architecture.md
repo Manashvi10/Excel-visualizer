@@ -13,6 +13,7 @@ MockAIProvider uses deterministic rules isolated from React and the analysis eng
 ## Modules
 
 - `src/core/schema.ts`: runtime/TypeScript contracts, semantic validation.
+- `src/core/starter.ts`: deterministic schema-based initial overview planning; no AI calls, invented columns or fabricated values.
 - `src/core/engine.ts`: CSV parsing, inference, filtering, date grouping, aggregation, table queries.
 - `src/core/protocol.ts`: discriminated worker request/response messages and request IDs.
 - `src/services/worker.ts`: lazy worker lifecycle, promises, AbortSignal handling, stale response suppression, crash recovery.
@@ -26,6 +27,12 @@ MockAIProvider uses deterministic rules isolated from React and the analysis eng
 ## Analysis lifecycle
 
 Analysis belongs to the application service, not the Assistant component. Navigating to Data Explorer, Settings or the dashboard library does not abort the AI request or clear progress. Completed charts, responses and errors commit to Redux even when Analyze Data is not mounted. Returning restores the progress/Stop control or completed visualization. Retry derives its question from bounded Redux conversation history, not page-local state. Stop, dataset replacement, and starting a new conversation invalidate the active run; late provider/worker results cannot overwrite a newer analysis. Background errors produce a toast and remain recoverable in the assistant. A full browser reload still ends the in-memory session.
+
+## Starter charts and canvas reveal
+
+A dataset-change subscription creates a starter specification only for an empty canvas or an untouched previous starter. It uses real inferred columns, validates the spec, and leaves aggregation to the same worker-backed Canvas pipeline. The first successful question replaces the starter's stable widget ID; later requests follow normal create/edit semantics. Restored or customized dashboards are preserved. The starter marker is session-only; saved widgets remain ordinary validated specifications.
+
+Explicit Redux reveal requests carry a widget ID and revision so both new widgets and same-ID updates are brought into view. Canvas waits for a render frame, scrolls only its own desktop overflow container, and uses document scrolling for the stacked mobile layout. Reduced-motion requests use instant scrolling. Selection alone does not steal focus or trigger scrolling; background completions are revealed when Analyze Data mounts again.
 
 ## Worker lifecycle and concurrency
 

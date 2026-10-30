@@ -18,6 +18,21 @@ it('rejects unsupported file types',()=>{wrap(<Upload/>);fireEvent.change(screen
 it('shows loading and stop-generation control',()=>{HTMLElement.prototype.scrollIntoView=vi.fn();wrap(<Assistant/>);act(()=>{store.dispatch(actions.status('Analysing'));});expect(screen.getByRole('button',{name:'Stop generation'})).toBeInTheDocument();fireEvent.click(screen.getByRole('button',{name:'Stop generation'}));expect(store.getState().status).toBe('');});
 it('submits a chat question with Enter and renders recoverable errors',()=>{HTMLElement.prototype.scrollIntoView=vi.fn();store.dispatch(actions.dataset({name:'x.csv',rows:1,columns:[{name:'revenue',type:'number',missing:0},{name:'region',type:'string',missing:0}],preview:[]}));wrap(<Assistant/>);fireEvent.change(screen.getByLabelText('Ask about your data'),{target:{value:'Show revenue by region'}});fireEvent.keyDown(screen.getByLabelText('Ask about your data'),{key:'Enter'});expect(store.getState().messages.at(-1)?.text).toBe('Show revenue by region');fireEvent.click(screen.getByRole('button',{name:'Stop generation'}));act(()=>{store.dispatch(actions.error('Unsupported request'));});expect(screen.getByRole('alert')).toHaveTextContent('Unsupported request');});
 const widget:Widget={id:'test',x:0,y:0,w:12,h:12,spec:{chartType:'bar',title:'Revenue by region',dimension:'region',metrics:[{field:'revenue',aggregation:'sum'}],filters:[]}};
+it('creates and refreshes an automatic preview without asking the AI provider',()=>{
+ store.dispatch(actions.restore([]));store.dispatch(actions.clear());
+ const ai=vi.spyOn(provider,'analyze');
+ store.dispatch(actions.dataset({name:'sales.csv',rows:2,columns:[{name:'region',type:'string',missing:0},{name:'revenue',type:'number',missing:0}],preview:[]}));
+ const first=store.getState().widgets[0];
+ expect(first.spec.dimension).toBe('region');expect(store.getState().starterId).toBe(first.id);
+ store.dispatch(actions.dataset({name:'payroll.csv',rows:2,columns:[{name:'department',type:'string',missing:0},{name:'salary',type:'number',missing:0}],preview:[]}));
+ expect(store.getState().widgets).toHaveLength(1);expect(store.getState().widgets[0].id).not.toBe(first.id);
+ expect(store.getState().widgets[0].spec.dimension).toBe('department');expect(ai).not.toHaveBeenCalled();
+});
+it('preserves a restored dashboard rather than overwriting it with an automatic preview',()=>{
+ store.dispatch(actions.restore([widget]));
+ store.dispatch(actions.dataset({name:'sales.csv',rows:2,columns:[{name:'region',type:'string',missing:0},{name:'revenue',type:'number',missing:0}],preview:[]}));
+ expect(store.getState().widgets).toEqual([widget]);expect(store.getState().starterId).toBeNull();
+});
 it('finishes an in-flight analysis after leaving the assistant page',async()=>{
  HTMLElement.prototype.scrollIntoView=vi.fn();
  store.dispatch(actions.restore([]));store.dispatch(actions.clear());
@@ -46,7 +61,7 @@ it('keeps cancellation available after the assistant remounts',async()=>{
  view.unmount();wrap(<Assistant/>);
  fireEvent.click(screen.getByRole('button',{name:'Stop generation'}));
  await act(async()=>{finish({spec:widget.spec,update:false,text:'Late response'});});
- expect(signal.aborted).toBe(true);expect(store.getState().widgets).toHaveLength(0);
+ expect(signal.aborted).toBe(true);expect(store.getState().widgets).toHaveLength(1);expect(store.getState().starterId).toBe(store.getState().widgets[0].id);
  expect(store.getState().status).toBe('');expect(screen.getByText(/Analysis stopped/)).toBeVisible();
 });
 it('cancels dataset replacement and ignores late AI results',async()=>{
@@ -58,7 +73,7 @@ it('cancels dataset replacement and ignores late AI results',async()=>{
  const pending=startAnalysis('Show revenue by region');
  store.dispatch(actions.dataset({...dataset,name:'replacement.csv'}));
  finish({spec:widget.spec,update:false,text:'Late response'});await pending;
- expect(signal.aborted).toBe(true);expect(store.getState().widgets).toHaveLength(0);
+ expect(signal.aborted).toBe(true);expect(store.getState().widgets).toHaveLength(1);expect(store.getState().starterId).toBe(store.getState().widgets[0].id);
  expect(store.getState().dataset?.name).toBe('replacement.csv');expect(store.getState().status).toBe('');
  expect(store.getState().messages.at(-1)?.text).toContain('dataset changed');
 });

@@ -33,7 +33,7 @@ After deploying changes, rebuild the frontend and restart the process serving it
 ## Try it
 
 1. Open **Analyze Data** and click **Load sample data** (1,200 rows), or drop/upload a CSV.
-2. Click a suggested question or ask `Show total revenue by region`.
+2. A locally calculated **Automatic overview** appears immediately when the columns support a chart. Click a suggested question or ask `Show total revenue by region` to replace this starter view with your requested analysis.
 3. Ask `Change the current chart to a line chart`, then `Show only 2025 data`.
 4. Ask `Show only the South region` or `Sort the results by revenue in descending order`.
 5. A new analytical question adds another chart; follow-ups modify the selected chart. Click a chart to select it. Undo restores a previous chart configuration.
@@ -41,7 +41,7 @@ After deploying changes, rebuild the frontend and restart the process serving it
 7. Save a dashboard with the top-bar action. **My Dashboards** supports open, rename, duplicate, delete, and configuration import. Current chart configuration also survives reloads, but CSV rows do not: load the corresponding file again.
 8. **Data Explorer** offers worker-backed search, column text filters, sorting, and virtual scrolling.
 
-Uploading a CSV makes its rows available in Data Explorer; it does not automatically invent a dashboard. Ask a question or use a suggested prompt in Analyze Data to create a chart. Analysis continues when switching to Data Explorer or another page. Return to Analyze Data to view the chart or use Stop; replacing the dataset cancels the old analysis with an explanation. A full browser refresh still ends the in-memory data session.
+Uploading a CSV makes its rows available in Data Explorer and creates an **Automatic overview** when the canvas is empty. It selects actual columns (for example revenue by region, a monthly date trend, or categorical counts) and calculates all values in the worker without calling AI. Category previews show up to 12 groups; insufficient usable fields leave an honest empty state. The first successful question replaces the starter chart; later new questions add widgets. Existing saved/custom dashboards are preserved, not overwritten by a preview. New and updated charts scroll into view automatically: only the right-hand canvas scrolls on desktop, while mobile scrolls to the chart. Reduced-motion preferences are respected and keyboard focus is not moved. Analysis continues when switching to Data Explorer or another page. Return to Analyze Data to view the chart or use Stop; replacing the dataset cancels the old analysis with an explanation. A full browser refresh still ends the in-memory data session.
 
 Enter submits a question; Shift+Enter inserts a newline. Stop cancels the active request. Theme persists across reloads. Icon actions have accessible names/tooltips. Destructive user actions request confirmation.
 
