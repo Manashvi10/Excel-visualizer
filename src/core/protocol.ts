@@ -1,0 +1,3 @@
+import type { AnalysisSpec, ChartData, Dataset, Row } from './schema';
+export type WorkerRequest = {id:string} & ({type:'PARSE_CSV';file:File}|{type:'RUN_ANALYSIS';spec:AnalysisSpec}|{type:'GET_PREVIEW'}|{type:'GET_TABLE_ROWS';offset:number;limit:number;search:string;sort?:{field:string;direction:'asc'|'desc'};filter?:{field:string;value:string}}|{type:'CANCEL_OPERATION';target:string});
+export type WorkerResponse = {id:string} & ({type:'PARSE_PROGRESS';progress:number}|{type:'PARSE_SUCCESS';data:Dataset}|{type:'ANALYSIS_SUCCESS';data:ChartData}|{type:'TABLE_SUCCESS';data:{rows:Row[];total:number}}|{type:'PREVIEW_SUCCESS';data:Row[]}|{type:'PARSE_ERROR'|'ERROR';error:string});

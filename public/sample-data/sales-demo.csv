@@ -1,0 +1,1201 @@
+order_id,order_date,region,country,product,category,quantity,unit_price,revenue,cost,profit,channel,customer_segment
+ORD-000001,2026-12-07,East,Japan,Cloud Suite,Software,2,149,298.00,226.48,71.52,Online,Business
+ORD-000002,2024-08-07,South,Brazil,Wireless Keyboard,Electronics,7,79,553.00,431.34,121.66,Online,Enterprise
+ORD-000003,2026-09-01,East,Japan,Analytics Pro,Software,4,249,996.00,527.88,468.12,Retail,Enterprise
+ORD-000004,2025-12-31,East,Japan,Notebook Set,Office,3,18,54.00,31.86,22.14,Retail,Enterprise
+ORD-000005,2026-11-23,East,Japan,Analytics Pro,Software,2,249,498.00,273.90,224.10,Partner,Business
+ORD-000006,2026-08-31,South,Brazil,Cloud Suite,Software,5,149,745.00,387.40,357.60,Online,Business
+ORD-000007,2024-09-24,West,United States,Analytics Pro,Software,4,249,996.00,537.84,458.16,Online,Business
+ORD-000008,2025-05-18,North,Canada,Notebook Set,Office,1,18,18.00,10.98,7.02,Online,Business
+ORD-000009,2026-12-15,West,United States,Desk Lamp,Office,3,45,135.00,106.65,28.35,Online,Enterprise
+ORD-000010,2025-10-15,West,United States,Wireless Keyboard,Electronics,6,79,474.00,284.40,189.60,Online,Consumer
+ORD-000011,2026-04-04,North,Canada,Webcam Plus,Electronics,3,95,285.00,156.75,128.25,Partner,Enterprise
+ORD-000012,2026-01-22,East,Japan,Notebook Set,Office,11,18,198.00,120.78,77.22,Retail,Consumer
+ORD-000013,2025-04-06,South,Brazil,Standing Desk,Office,12,450,5400.00,4104.00,1296.00,Retail,Consumer
+ORD-000014,2026-09-11,North,Canada,Standing Desk,Office,3,450,1350.00,769.50,580.50,Retail,Business
+ORD-000015,2026-06-21,East,Japan,Studio Monitor,Electronics,12,320,3840.00,2457.60,1382.40,Online,Consumer
+ORD-000016,2024-02-07,East,Japan,Studio Monitor,Electronics,12,320,3840.00,2265.60,1574.40,Retail,Enterprise
+ORD-000017,2025-10-24,North,Canada,Webcam Plus,Electronics,10,95,950.00,494.00,456.00,Online,Business
+ORD-000018,2026-12-20,East,Japan,Webcam Plus,Electronics,8,95,760.00,539.60,220.40,Retail,Business
+ORD-000019,2025-09-14,North,Canada,Cloud Suite,Software,5,149,745.00,454.45,290.55,Online,Consumer
+ORD-000020,2026-10-29,South,Brazil,Desk Lamp,Office,3,45,135.00,93.15,41.85,Retail,Consumer
+ORD-000021,2026-01-10,West,United States,Notebook Set,Office,8,18,144.00,108.00,36.00,Retail,Consumer
+ORD-000022,2024-11-10,South,Brazil,Analytics Pro,Software,8,249,1992.00,1334.64,657.36,Partner,Business
+ORD-000023,2026-03-17,East,Japan,Analytics Pro,Software,4,249,996.00,647.40,348.60,Online,Enterprise
+ORD-000024,2025-06-05,North,Canada,Studio Monitor,Electronics,6,320,1920.00,1171.20,748.80,Retail,Consumer
+ORD-000025,2024-01-22,South,Brazil,Notebook Set,Office,4,18,72.00,38.88,33.12,Retail,Business
+ORD-000026,2026-05-15,East,Japan,Studio Monitor,Electronics,1,320,320.00,179.20,140.80,Retail,Enterprise
+ORD-000027,2024-12-31,East,Japan,Wireless Keyboard,Electronics,3,79,237.00,146.94,90.06,Online,Enterprise
+ORD-000028,2026-05-30,North,Canada,Standing Desk,Office,12,450,5400.00,3726.00,1674.00,Online,Business
+ORD-000029,2026-05-24,South,Brazil,Notebook Set,Office,6,18,108.00,61.56,46.44,Retail,Business
+ORD-000030,2025-05-07,East,Japan,Desk Lamp,Office,4,45,180.00,97.20,82.80,Online,Consumer
+ORD-000031,2025-10-09,East,Japan,Studio Monitor,Electronics,4,320,1280.00,1011.20,268.80,Retail,Enterprise
+ORD-000032,2024-05-28,North,Canada,Webcam Plus,Electronics,7,95,665.00,359.10,305.90,Online,Business
+ORD-000033,2025-03-02,West,United States,Studio Monitor,Electronics,5,320,1600.00,848.00,752.00,Retail,Enterprise
+ORD-000034,2024-01-24,East,Japan,Notebook Set,Office,12,18,216.00,142.56,73.44,Partner,Enterprise
+ORD-000035,2024-08-03,East,Japan,Standing Desk,Office,3,450,1350.00,688.50,661.50,Retail,Business
+ORD-000036,2024-09-12,North,Canada,Analytics Pro,Software,12,249,2988.00,1912.32,1075.68,Retail,Business
+ORD-000037,2026-04-28,East,Japan,Standing Desk,Office,6,450,2700.00,1620.00,1080.00,Partner,Consumer
+ORD-000038,2024-05-27,West,United States,Wireless Keyboard,Electronics,10,79,790.00,600.40,189.60,Online,Enterprise
+ORD-000039,2026-12-06,North,Canada,Desk Lamp,Office,1,45,45.00,22.95,22.05,Retail,Consumer
+ORD-000040,2026-07-24,South,Brazil,Webcam Plus,Electronics,5,95,475.00,294.50,180.50,Online,Business
+ORD-000041,2024-07-13,West,United States,Standing Desk,Office,9,450,4050.00,2511.00,1539.00,Retail,Enterprise
+ORD-000042,2025-09-13,East,Japan,Notebook Set,Office,11,18,198.00,140.58,57.42,Retail,Business
+ORD-000043,2025-04-23,East,Japan,Wireless Keyboard,Electronics,2,79,158.00,88.48,69.52,Partner,Consumer
+ORD-000044,2026-03-05,North,Canada,Standing Desk,Office,4,450,1800.00,1404.00,396.00,Online,Consumer
+ORD-000045,2025-06-24,South,Brazil,Wireless Keyboard,Electronics,9,79,711.00,483.48,227.52,Partner,Business
+ORD-000046,2026-11-16,West,United States,Notebook Set,Office,4,18,72.00,36.72,35.28,Retail,Enterprise
+ORD-000047,2026-07-08,East,Japan,Cloud Suite,Software,4,149,596.00,315.88,280.12,Online,Consumer
+ORD-000048,2026-10-17,North,Canada,Wireless Keyboard,Electronics,2,79,158.00,109.02,48.98,Partner,Business
+ORD-000049,2024-12-02,West,United States,Analytics Pro,Software,9,249,2241.00,1142.91,1098.09,Retail,Enterprise
+ORD-000050,2025-05-10,West,United States,Webcam Plus,Electronics,3,95,285.00,159.60,125.40,Retail,Enterprise
+ORD-000051,2026-03-27,North,Canada,Desk Lamp,Office,9,45,405.00,267.30,137.70,Retail,Consumer
+ORD-000052,2026-05-26,East,Japan,Analytics Pro,Software,8,249,1992.00,1394.40,597.60,Retail,Business
+ORD-000053,2025-08-30,North,Canada,Studio Monitor,Electronics,4,320,1280.00,934.40,345.60,Online,Business
+ORD-000054,2026-12-11,North,Canada,Desk Lamp,Office,7,45,315.00,211.05,103.95,Online,Enterprise
+ORD-000055,2024-07-09,North,Canada,Desk Lamp,Office,4,45,180.00,118.80,61.20,Partner,Business
+ORD-000056,2025-12-20,East,Japan,Studio Monitor,Electronics,6,320,1920.00,1152.00,768.00,Partner,Consumer
+ORD-000057,2024-05-03,South,Brazil,Desk Lamp,Office,9,45,405.00,251.10,153.90,Online,Consumer
+ORD-000058,2024-08-18,North,Canada,Wireless Keyboard,Electronics,6,79,474.00,284.40,189.60,Online,Consumer
+ORD-000059,2026-06-28,North,Canada,Wireless Keyboard,Electronics,7,79,553.00,353.92,199.08,Retail,Enterprise
+ORD-000060,2024-03-13,West,United States,Webcam Plus,Electronics,5,95,475.00,261.25,213.75,Partner,Business
+ORD-000061,2026-08-19,North,Canada,Desk Lamp,Office,6,45,270.00,143.10,126.90,Online,Consumer
+ORD-000062,2025-01-11,East,Japan,Standing Desk,Office,11,450,4950.00,2475.00,2475.00,Retail,Enterprise
+ORD-000063,2024-02-08,South,Brazil,Cloud Suite,Software,11,149,1639.00,1229.25,409.75,Partner,Consumer
+ORD-000064,2025-03-11,South,Brazil,Notebook Set,Office,10,18,180.00,93.60,86.40,Partner,Business
+ORD-000065,2024-05-04,North,Canada,Webcam Plus,Electronics,6,95,570.00,319.20,250.80,Retail,Consumer
+ORD-000066,2024-11-22,North,Canada,Desk Lamp,Office,3,45,135.00,106.65,28.35,Online,Consumer
+ORD-000067,2024-12-23,East,Japan,Desk Lamp,Office,7,45,315.00,248.85,66.15,Partner,Consumer
+ORD-000068,2026-07-16,East,Japan,Studio Monitor,Electronics,12,320,3840.00,2457.60,1382.40,Online,Business
+ORD-000069,2024-05-26,West,United States,Webcam Plus,Electronics,10,95,950.00,684.00,266.00,Retail,Consumer
+ORD-000070,2026-11-29,South,Brazil,Webcam Plus,Electronics,3,95,285.00,185.25,99.75,Retail,Business
+ORD-000071,2026-07-22,East,Japan,Desk Lamp,Office,2,45,90.00,51.30,38.70,Retail,Consumer
+ORD-000072,2024-10-07,North,Canada,Webcam Plus,Electronics,2,95,190.00,112.10,77.90,Retail,Business
+ORD-000073,2025-10-19,South,Brazil,Cloud Suite,Software,6,149,894.00,643.68,250.32,Partner,Consumer
+ORD-000074,2025-09-28,East,Japan,Notebook Set,Office,12,18,216.00,149.04,66.96,Online,Consumer
+ORD-000075,2024-01-24,South,Brazil,Notebook Set,Office,8,18,144.00,105.12,38.88,Online,Business
+ORD-000076,2025-01-27,East,Japan,Analytics Pro,Software,7,249,1743.00,1202.67,540.33,Retail,Business
+ORD-000077,2026-12-18,East,Japan,Analytics Pro,Software,5,249,1245.00,908.85,336.15,Partner,Consumer
+ORD-000078,2025-01-01,West,United States,Studio Monitor,Electronics,1,320,320.00,198.40,121.60,Retail,Enterprise
+ORD-000079,2024-03-04,East,Japan,Standing Desk,Office,10,450,4500.00,2430.00,2070.00,Retail,Business
+ORD-000080,2024-11-07,South,Brazil,Analytics Pro,Software,9,249,2241.00,1299.78,941.22,Partner,Consumer
+ORD-000081,2024-01-30,East,Japan,Cloud Suite,Software,5,149,745.00,528.95,216.05,Partner,Consumer
+ORD-000082,2026-08-17,West,United States,Analytics Pro,Software,5,249,1245.00,896.40,348.60,Retail,Business
+ORD-000083,2025-03-02,West,United States,Notebook Set,Office,4,18,72.00,37.44,34.56,Online,Enterprise
+ORD-000084,2025-05-23,South,Brazil,Cloud Suite,Software,10,149,1490.00,834.40,655.60,Retail,Business
+ORD-000085,2024-06-08,West,United States,Wireless Keyboard,Electronics,9,79,711.00,547.47,163.53,Retail,Business
+ORD-000086,2024-11-01,North,Canada,Cloud Suite,Software,10,149,1490.00,1117.50,372.50,Retail,Enterprise
+ORD-000087,2024-02-12,North,Canada,Wireless Keyboard,Electronics,9,79,711.00,533.25,177.75,Online,Enterprise
+ORD-000088,2024-10-17,North,Canada,Desk Lamp,Office,8,45,360.00,212.40,147.60,Partner,Enterprise
+ORD-000089,2024-09-04,West,United States,Wireless Keyboard,Electronics,2,79,158.00,105.86,52.14,Online,Enterprise
+ORD-000090,2025-09-02,South,Brazil,Analytics Pro,Software,7,249,1743.00,1080.66,662.34,Retail,Consumer
+ORD-000091,2025-05-02,West,United States,Notebook Set,Office,4,18,72.00,38.88,33.12,Partner,Business
+ORD-000092,2026-12-14,West,United States,Desk Lamp,Office,3,45,135.00,85.05,49.95,Partner,Consumer
+ORD-000093,2024-08-31,South,Brazil,Cloud Suite,Software,10,149,1490.00,1072.80,417.20,Partner,Enterprise
+ORD-000094,2026-09-26,West,United States,Wireless Keyboard,Electronics,12,79,948.00,748.92,199.08,Partner,Enterprise
+ORD-000095,2025-02-24,North,Canada,Studio Monitor,Electronics,1,320,320.00,252.80,67.20,Online,Business
+ORD-000096,2024-02-27,South,Brazil,Wireless Keyboard,Electronics,10,79,790.00,474.00,316.00,Partner,Business
+ORD-000097,2025-04-07,South,Brazil,Standing Desk,Office,5,450,2250.00,1665.00,585.00,Retail,Enterprise
+ORD-000098,2024-09-11,South,Brazil,Wireless Keyboard,Electronics,2,79,158.00,93.22,64.78,Online,Enterprise
+ORD-000099,2026-09-15,West,United States,Studio Monitor,Electronics,10,320,3200.00,1632.00,1568.00,Retail,Consumer
+ORD-000100,2025-09-10,South,Brazil,Cloud Suite,Software,2,149,298.00,154.96,143.04,Retail,Enterprise
+ORD-000101,2025-04-04,East,Japan,Webcam Plus,Electronics,3,95,285.00,171.00,114.00,Retail,Enterprise
+ORD-000102,2025-08-28,South,Brazil,Webcam Plus,Electronics,2,95,190.00,108.30,81.70,Partner,Consumer
+ORD-000103,2025-05-14,North,Canada,Standing Desk,Office,11,450,4950.00,3217.50,1732.50,Partner,Business
+ORD-000104,2025-06-07,South,Brazil,Desk Lamp,Office,8,45,360.00,284.40,75.60,Partner,Business
+ORD-000105,2024-03-20,North,Canada,Studio Monitor,Electronics,7,320,2240.00,1142.40,1097.60,Retail,Enterprise
+ORD-000106,2025-05-30,East,Japan,Cloud Suite,Software,10,149,1490.00,745.00,745.00,Online,Consumer
+ORD-000107,2025-12-13,North,Canada,Desk Lamp,Office,8,45,360.00,201.60,158.40,Partner,Enterprise
+ORD-000108,2024-05-08,South,Brazil,Studio Monitor,Electronics,8,320,2560.00,1561.60,998.40,Partner,Consumer
+ORD-000109,2024-01-20,East,Japan,Notebook Set,Office,3,18,54.00,40.50,13.50,Partner,Business
+ORD-000110,2026-03-30,West,United States,Desk Lamp,Office,9,45,405.00,214.65,190.35,Partner,Enterprise
+ORD-000111,2024-10-27,North,Canada,Standing Desk,Office,7,450,3150.00,1701.00,1449.00,Retail,Enterprise
+ORD-000112,2026-06-11,West,United States,Cloud Suite,Software,1,149,149.00,89.40,59.60,Retail,Enterprise
+ORD-000113,2025-07-15,West,United States,Studio Monitor,Electronics,8,320,2560.00,1638.40,921.60,Online,Enterprise
+ORD-000114,2025-10-12,North,Canada,Studio Monitor,Electronics,5,320,1600.00,1040.00,560.00,Partner,Enterprise
+ORD-000115,2025-08-14,East,Japan,Studio Monitor,Electronics,2,320,640.00,428.80,211.20,Partner,Consumer
+ORD-000116,2026-06-13,North,Canada,Desk Lamp,Office,12,45,540.00,372.60,167.40,Retail,Business
+ORD-000117,2026-01-10,West,United States,Analytics Pro,Software,3,249,747.00,373.50,373.50,Retail,Consumer
+ORD-000118,2025-01-13,South,Brazil,Studio Monitor,Electronics,3,320,960.00,508.80,451.20,Partner,Enterprise
+ORD-000119,2026-02-10,East,Japan,Studio Monitor,Electronics,9,320,2880.00,1958.40,921.60,Online,Enterprise
+ORD-000120,2026-06-03,East,Japan,Analytics Pro,Software,7,249,1743.00,941.22,801.78,Online,Business
+ORD-000121,2025-03-23,East,Japan,Webcam Plus,Electronics,6,95,570.00,364.80,205.20,Partner,Business
+ORD-000122,2025-08-18,North,Canada,Cloud Suite,Software,6,149,894.00,527.46,366.54,Retail,Business
+ORD-000123,2025-06-16,South,Brazil,Cloud Suite,Software,9,149,1341.00,697.32,643.68,Online,Enterprise
+ORD-000124,2025-12-22,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,2393.60,1126.40,Online,Enterprise
+ORD-000125,2025-08-21,West,United States,Desk Lamp,Office,10,45,450.00,229.50,220.50,Online,Enterprise
+ORD-000126,2025-11-28,South,Brazil,Studio Monitor,Electronics,9,320,2880.00,1468.80,1411.20,Partner,Business
+ORD-000127,2026-11-24,East,Japan,Cloud Suite,Software,3,149,447.00,245.85,201.15,Online,Enterprise
+ORD-000128,2024-10-18,South,Brazil,Standing Desk,Office,2,450,900.00,702.00,198.00,Partner,Consumer
+ORD-000129,2024-02-12,North,Canada,Cloud Suite,Software,2,149,298.00,217.54,80.46,Online,Enterprise
+ORD-000130,2026-05-18,East,Japan,Standing Desk,Office,11,450,4950.00,3118.50,1831.50,Retail,Enterprise
+ORD-000131,2026-08-17,East,Japan,Analytics Pro,Software,10,249,2490.00,1892.40,597.60,Retail,Enterprise
+ORD-000132,2025-10-04,West,United States,Studio Monitor,Electronics,7,320,2240.00,1590.40,649.60,Partner,Consumer
+ORD-000133,2024-08-15,East,Japan,Standing Desk,Office,3,450,1350.00,756.00,594.00,Partner,Enterprise
+ORD-000134,2025-08-30,North,Canada,Cloud Suite,Software,12,149,1788.00,1305.24,482.76,Partner,Enterprise
+ORD-000135,2025-05-10,North,Canada,Webcam Plus,Electronics,7,95,665.00,518.70,146.30,Partner,Consumer
+ORD-000136,2024-08-29,South,Brazil,Notebook Set,Office,4,18,72.00,51.12,20.88,Online,Consumer
+ORD-000137,2025-02-11,West,United States,Desk Lamp,Office,12,45,540.00,297.00,243.00,Retail,Consumer
+ORD-000138,2024-12-27,South,Brazil,Studio Monitor,Electronics,3,320,960.00,508.80,451.20,Partner,Enterprise
+ORD-000139,2024-11-17,East,Japan,Notebook Set,Office,12,18,216.00,116.64,99.36,Partner,Enterprise
+ORD-000140,2024-07-08,North,Canada,Webcam Plus,Electronics,8,95,760.00,433.20,326.80,Partner,Business
+ORD-000141,2025-03-12,North,Canada,Notebook Set,Office,9,18,162.00,118.26,43.74,Online,Consumer
+ORD-000142,2026-10-25,North,Canada,Standing Desk,Office,12,450,5400.00,2700.00,2700.00,Partner,Enterprise
+ORD-000143,2026-07-29,West,United States,Notebook Set,Office,1,18,18.00,11.52,6.48,Retail,Consumer
+ORD-000144,2025-11-23,West,United States,Notebook Set,Office,7,18,126.00,65.52,60.48,Retail,Enterprise
+ORD-000145,2026-11-20,East,Japan,Desk Lamp,Office,6,45,270.00,148.50,121.50,Online,Consumer
+ORD-000146,2026-02-16,South,Brazil,Webcam Plus,Electronics,7,95,665.00,438.90,226.10,Retail,Business
+ORD-000147,2025-09-07,South,Brazil,Webcam Plus,Electronics,2,95,190.00,115.90,74.10,Retail,Enterprise
+ORD-000148,2026-08-15,West,United States,Webcam Plus,Electronics,12,95,1140.00,900.60,239.40,Retail,Business
+ORD-000149,2025-09-19,East,Japan,Studio Monitor,Electronics,7,320,2240.00,1724.80,515.20,Online,Enterprise
+ORD-000150,2026-08-01,West,United States,Desk Lamp,Office,6,45,270.00,189.00,81.00,Partner,Consumer
+ORD-000151,2025-11-15,East,Japan,Wireless Keyboard,Electronics,5,79,395.00,244.90,150.10,Partner,Consumer
+ORD-000152,2026-01-13,South,Brazil,Desk Lamp,Office,4,45,180.00,99.00,81.00,Retail,Consumer
+ORD-000153,2025-12-26,East,Japan,Webcam Plus,Electronics,4,95,380.00,254.60,125.40,Retail,Enterprise
+ORD-000154,2024-06-12,West,United States,Desk Lamp,Office,1,45,45.00,24.75,20.25,Online,Consumer
+ORD-000155,2024-04-06,East,Japan,Analytics Pro,Software,6,249,1494.00,821.70,672.30,Online,Business
+ORD-000156,2026-06-29,West,United States,Standing Desk,Office,7,450,3150.00,1701.00,1449.00,Online,Enterprise
+ORD-000157,2024-10-21,East,Japan,Standing Desk,Office,2,450,900.00,576.00,324.00,Online,Business
+ORD-000158,2024-01-16,South,Brazil,Webcam Plus,Electronics,8,95,760.00,471.20,288.80,Online,Business
+ORD-000159,2026-01-31,North,Canada,Analytics Pro,Software,5,249,1245.00,647.40,597.60,Online,Business
+ORD-000160,2025-10-13,South,Brazil,Studio Monitor,Electronics,4,320,1280.00,908.80,371.20,Online,Enterprise
+ORD-000161,2024-06-03,West,United States,Standing Desk,Office,4,450,1800.00,1026.00,774.00,Online,Business
+ORD-000162,2026-02-17,North,Canada,Desk Lamp,Office,7,45,315.00,157.50,157.50,Retail,Enterprise
+ORD-000163,2025-07-30,East,Japan,Desk Lamp,Office,5,45,225.00,168.75,56.25,Partner,Business
+ORD-000164,2024-10-01,South,Brazil,Webcam Plus,Electronics,2,95,190.00,129.20,60.80,Online,Consumer
+ORD-000165,2024-11-01,East,Japan,Webcam Plus,Electronics,12,95,1140.00,672.60,467.40,Online,Enterprise
+ORD-000166,2024-06-28,West,United States,Studio Monitor,Electronics,3,320,960.00,624.00,336.00,Retail,Business
+ORD-000167,2025-10-03,East,Japan,Cloud Suite,Software,7,149,1043.00,552.79,490.21,Online,Consumer
+ORD-000168,2024-03-21,South,Brazil,Notebook Set,Office,2,18,36.00,22.32,13.68,Retail,Enterprise
+ORD-000169,2024-09-02,West,United States,Standing Desk,Office,5,450,2250.00,1687.50,562.50,Online,Enterprise
+ORD-000170,2025-07-28,West,United States,Desk Lamp,Office,9,45,405.00,267.30,137.70,Partner,Business
+ORD-000171,2026-04-02,West,United States,Webcam Plus,Electronics,1,95,95.00,53.20,41.80,Partner,Business
+ORD-000172,2025-01-06,East,Japan,Cloud Suite,Software,8,149,1192.00,774.80,417.20,Retail,Consumer
+ORD-000173,2025-12-11,West,United States,Notebook Set,Office,5,18,90.00,45.90,44.10,Partner,Consumer
+ORD-000174,2025-12-26,North,Canada,Webcam Plus,Electronics,9,95,855.00,436.05,418.95,Partner,Business
+ORD-000175,2026-04-12,West,United States,Notebook Set,Office,3,18,54.00,35.64,18.36,Partner,Consumer
+ORD-000176,2024-09-18,East,Japan,Desk Lamp,Office,3,45,135.00,87.75,47.25,Retail,Business
+ORD-000177,2024-02-03,North,Canada,Standing Desk,Office,5,450,2250.00,1665.00,585.00,Online,Enterprise
+ORD-000178,2024-04-04,North,Canada,Analytics Pro,Software,8,249,1992.00,1434.24,557.76,Retail,Business
+ORD-000179,2024-06-12,South,Brazil,Cloud Suite,Software,9,149,1341.00,791.19,549.81,Online,Consumer
+ORD-000180,2026-05-24,South,Brazil,Webcam Plus,Electronics,11,95,1045.00,532.95,512.05,Retail,Consumer
+ORD-000181,2025-05-30,East,Japan,Standing Desk,Office,3,450,1350.00,796.50,553.50,Online,Enterprise
+ORD-000182,2024-01-24,East,Japan,Wireless Keyboard,Electronics,1,79,79.00,50.56,28.44,Online,Business
+ORD-000183,2024-12-28,North,Canada,Desk Lamp,Office,9,45,405.00,226.80,178.20,Online,Enterprise
+ORD-000184,2024-07-01,West,United States,Desk Lamp,Office,12,45,540.00,302.40,237.60,Partner,Business
+ORD-000185,2026-10-26,South,Brazil,Analytics Pro,Software,12,249,2988.00,1643.40,1344.60,Partner,Consumer
+ORD-000186,2025-11-09,South,Brazil,Desk Lamp,Office,12,45,540.00,361.80,178.20,Partner,Business
+ORD-000187,2024-08-22,South,Brazil,Notebook Set,Office,4,18,72.00,46.08,25.92,Retail,Enterprise
+ORD-000188,2026-08-27,North,Canada,Standing Desk,Office,8,450,3600.00,2520.00,1080.00,Online,Enterprise
+ORD-000189,2025-07-11,West,United States,Desk Lamp,Office,3,45,135.00,70.20,64.80,Online,Consumer
+ORD-000190,2025-09-02,West,United States,Wireless Keyboard,Electronics,10,79,790.00,466.10,323.90,Online,Enterprise
+ORD-000191,2024-03-04,South,Brazil,Studio Monitor,Electronics,1,320,320.00,169.60,150.40,Retail,Enterprise
+ORD-000192,2026-12-14,East,Japan,Standing Desk,Office,6,450,2700.00,1755.00,945.00,Online,Business
+ORD-000193,2025-01-28,East,Japan,Desk Lamp,Office,9,45,405.00,275.40,129.60,Partner,Business
+ORD-000194,2025-06-17,West,United States,Standing Desk,Office,8,450,3600.00,2484.00,1116.00,Online,Business
+ORD-000195,2025-05-20,North,Canada,Notebook Set,Office,10,18,180.00,140.40,39.60,Online,Business
+ORD-000196,2024-02-13,North,Canada,Analytics Pro,Software,1,249,249.00,171.81,77.19,Partner,Consumer
+ORD-000197,2025-11-08,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,2569.60,950.40,Partner,Enterprise
+ORD-000198,2024-04-02,West,United States,Studio Monitor,Electronics,12,320,3840.00,2342.40,1497.60,Retail,Consumer
+ORD-000199,2026-01-08,West,United States,Notebook Set,Office,1,18,18.00,14.04,3.96,Retail,Enterprise
+ORD-000200,2025-07-25,West,United States,Wireless Keyboard,Electronics,1,79,79.00,45.03,33.97,Online,Enterprise
+ORD-000201,2024-12-06,East,Japan,Cloud Suite,Software,7,149,1043.00,646.66,396.34,Retail,Business
+ORD-000202,2026-01-14,North,Canada,Notebook Set,Office,4,18,72.00,41.04,30.96,Partner,Consumer
+ORD-000203,2025-12-13,West,United States,Analytics Pro,Software,12,249,2988.00,1733.04,1254.96,Partner,Consumer
+ORD-000204,2024-03-15,East,Japan,Webcam Plus,Electronics,9,95,855.00,598.50,256.50,Online,Enterprise
+ORD-000205,2026-12-20,South,Brazil,Wireless Keyboard,Electronics,1,79,79.00,53.72,25.28,Online,Business
+ORD-000206,2026-01-23,East,Japan,Analytics Pro,Software,5,249,1245.00,709.65,535.35,Online,Consumer
+ORD-000207,2025-07-09,West,United States,Analytics Pro,Software,6,249,1494.00,956.16,537.84,Retail,Enterprise
+ORD-000208,2025-07-31,East,Japan,Standing Desk,Office,12,450,5400.00,3942.00,1458.00,Online,Consumer
+ORD-000209,2026-06-22,South,Brazil,Desk Lamp,Office,1,45,45.00,31.05,13.95,Partner,Consumer
+ORD-000210,2025-01-27,West,United States,Notebook Set,Office,2,18,36.00,26.28,9.72,Online,Enterprise
+ORD-000211,2024-12-20,North,Canada,Studio Monitor,Electronics,5,320,1600.00,800.00,800.00,Online,Consumer
+ORD-000212,2026-08-31,East,Japan,Webcam Plus,Electronics,9,95,855.00,504.45,350.55,Retail,Business
+ORD-000213,2024-08-10,South,Brazil,Standing Desk,Office,1,450,450.00,234.00,216.00,Partner,Business
+ORD-000214,2025-08-13,South,Brazil,Standing Desk,Office,4,450,1800.00,1404.00,396.00,Online,Business
+ORD-000215,2025-04-19,North,Canada,Standing Desk,Office,7,450,3150.00,1953.00,1197.00,Partner,Consumer
+ORD-000216,2025-05-06,East,Japan,Analytics Pro,Software,12,249,2988.00,1912.32,1075.68,Partner,Enterprise
+ORD-000217,2024-06-13,West,United States,Standing Desk,Office,11,450,4950.00,2920.50,2029.50,Online,Consumer
+ORD-000218,2025-05-23,North,Canada,Cloud Suite,Software,3,149,447.00,263.73,183.27,Partner,Enterprise
+ORD-000219,2025-12-19,West,United States,Notebook Set,Office,3,18,54.00,28.08,25.92,Retail,Business
+ORD-000220,2026-07-12,North,Canada,Studio Monitor,Electronics,6,320,1920.00,998.40,921.60,Retail,Consumer
+ORD-000221,2024-04-08,South,Brazil,Wireless Keyboard,Electronics,12,79,948.00,559.32,388.68,Retail,Business
+ORD-000222,2026-05-19,East,Japan,Analytics Pro,Software,6,249,1494.00,1180.26,313.74,Retail,Business
+ORD-000223,2024-05-14,West,United States,Standing Desk,Office,12,450,5400.00,3888.00,1512.00,Partner,Business
+ORD-000224,2026-04-28,North,Canada,Studio Monitor,Electronics,8,320,2560.00,1382.40,1177.60,Online,Consumer
+ORD-000225,2026-04-30,South,Brazil,Standing Desk,Office,7,450,3150.00,2142.00,1008.00,Retail,Enterprise
+ORD-000226,2025-02-25,West,United States,Standing Desk,Office,7,450,3150.00,2142.00,1008.00,Partner,Business
+ORD-000227,2025-11-07,East,Japan,Wireless Keyboard,Electronics,4,79,316.00,233.84,82.16,Partner,Enterprise
+ORD-000228,2025-09-20,East,Japan,Notebook Set,Office,1,18,18.00,10.80,7.20,Partner,Business
+ORD-000229,2025-03-26,East,Japan,Wireless Keyboard,Electronics,8,79,632.00,429.76,202.24,Online,Consumer
+ORD-000230,2025-08-11,South,Brazil,Webcam Plus,Electronics,6,95,570.00,433.20,136.80,Partner,Enterprise
+ORD-000231,2025-11-07,East,Japan,Desk Lamp,Office,3,45,135.00,97.20,37.80,Partner,Business
+ORD-000232,2026-10-23,East,Japan,Desk Lamp,Office,5,45,225.00,112.50,112.50,Online,Business
+ORD-000233,2024-10-18,West,United States,Webcam Plus,Electronics,10,95,950.00,503.50,446.50,Partner,Enterprise
+ORD-000234,2026-01-24,North,Canada,Wireless Keyboard,Electronics,9,79,711.00,447.93,263.07,Partner,Consumer
+ORD-000235,2025-05-03,East,Japan,Cloud Suite,Software,8,149,1192.00,703.28,488.72,Partner,Consumer
+ORD-000236,2025-05-11,East,Japan,Desk Lamp,Office,12,45,540.00,340.20,199.80,Retail,Business
+ORD-000237,2025-01-17,North,Canada,Notebook Set,Office,2,18,36.00,18.36,17.64,Retail,Enterprise
+ORD-000238,2026-05-28,East,Japan,Notebook Set,Office,9,18,162.00,113.40,48.60,Retail,Enterprise
+ORD-000239,2024-08-13,East,Japan,Studio Monitor,Electronics,8,320,2560.00,1587.20,972.80,Partner,Business
+ORD-000240,2026-05-06,West,United States,Webcam Plus,Electronics,4,95,380.00,285.00,95.00,Partner,Enterprise
+ORD-000241,2026-09-17,North,Canada,Analytics Pro,Software,7,249,1743.00,1010.94,732.06,Retail,Consumer
+ORD-000242,2026-10-06,South,Brazil,Standing Desk,Office,12,450,5400.00,2970.00,2430.00,Retail,Business
+ORD-000243,2025-04-20,West,United States,Wireless Keyboard,Electronics,11,79,869.00,590.92,278.08,Online,Enterprise
+ORD-000244,2025-10-04,East,Japan,Notebook Set,Office,8,18,144.00,113.76,30.24,Online,Business
+ORD-000245,2026-06-06,South,Brazil,Analytics Pro,Software,9,249,2241.00,1142.91,1098.09,Retail,Consumer
+ORD-000246,2025-12-02,South,Brazil,Cloud Suite,Software,9,149,1341.00,724.14,616.86,Retail,Enterprise
+ORD-000247,2025-11-08,West,United States,Studio Monitor,Electronics,11,320,3520.00,2569.60,950.40,Retail,Consumer
+ORD-000248,2025-10-12,North,Canada,Notebook Set,Office,2,18,36.00,25.20,10.80,Retail,Business
+ORD-000249,2024-06-17,North,Canada,Notebook Set,Office,12,18,216.00,159.84,56.16,Online,Consumer
+ORD-000250,2025-05-18,North,Canada,Analytics Pro,Software,8,249,1992.00,1314.72,677.28,Online,Enterprise
+ORD-000251,2024-02-05,North,Canada,Cloud Suite,Software,4,149,596.00,351.64,244.36,Online,Consumer
+ORD-000252,2025-02-09,East,Japan,Studio Monitor,Electronics,6,320,1920.00,1152.00,768.00,Online,Enterprise
+ORD-000253,2025-08-14,West,United States,Studio Monitor,Electronics,10,320,3200.00,1792.00,1408.00,Online,Business
+ORD-000254,2024-10-19,South,Brazil,Standing Desk,Office,5,450,2250.00,1710.00,540.00,Partner,Business
+ORD-000255,2025-08-07,South,Brazil,Standing Desk,Office,7,450,3150.00,1827.00,1323.00,Partner,Consumer
+ORD-000256,2026-01-28,North,Canada,Analytics Pro,Software,7,249,1743.00,1028.37,714.63,Retail,Consumer
+ORD-000257,2026-10-14,North,Canada,Webcam Plus,Electronics,4,95,380.00,201.40,178.60,Retail,Enterprise
+ORD-000258,2025-04-21,South,Brazil,Notebook Set,Office,12,18,216.00,118.80,97.20,Online,Consumer
+ORD-000259,2024-10-10,North,Canada,Desk Lamp,Office,7,45,315.00,217.35,97.65,Online,Enterprise
+ORD-000260,2025-11-03,West,United States,Studio Monitor,Electronics,7,320,2240.00,1164.80,1075.20,Online,Consumer
+ORD-000261,2024-02-22,West,United States,Standing Desk,Office,7,450,3150.00,2457.00,693.00,Online,Consumer
+ORD-000262,2024-10-06,East,Japan,Webcam Plus,Electronics,8,95,760.00,402.80,357.20,Online,Consumer
+ORD-000263,2025-03-07,East,Japan,Studio Monitor,Electronics,2,320,640.00,358.40,281.60,Retail,Enterprise
+ORD-000264,2025-09-30,North,Canada,Wireless Keyboard,Electronics,11,79,869.00,643.06,225.94,Online,Consumer
+ORD-000265,2026-01-12,South,Brazil,Notebook Set,Office,6,18,108.00,79.92,28.08,Partner,Consumer
+ORD-000266,2026-02-19,East,Japan,Cloud Suite,Software,5,149,745.00,543.85,201.15,Retail,Business
+ORD-000267,2025-04-06,North,Canada,Standing Desk,Office,7,450,3150.00,1921.50,1228.50,Retail,Business
+ORD-000268,2024-09-07,North,Canada,Wireless Keyboard,Electronics,7,79,553.00,392.63,160.37,Retail,Consumer
+ORD-000269,2025-01-21,South,Brazil,Wireless Keyboard,Electronics,8,79,632.00,372.88,259.12,Retail,Consumer
+ORD-000270,2026-06-02,West,United States,Desk Lamp,Office,1,45,45.00,29.70,15.30,Online,Enterprise
+ORD-000271,2025-08-14,North,Canada,Notebook Set,Office,1,18,18.00,10.80,7.20,Online,Business
+ORD-000272,2026-01-08,West,United States,Wireless Keyboard,Electronics,7,79,553.00,392.63,160.37,Retail,Business
+ORD-000273,2024-11-05,East,Japan,Webcam Plus,Electronics,5,95,475.00,308.75,166.25,Partner,Enterprise
+ORD-000274,2026-10-25,North,Canada,Webcam Plus,Electronics,12,95,1140.00,661.20,478.80,Partner,Enterprise
+ORD-000275,2024-06-24,West,United States,Cloud Suite,Software,12,149,1788.00,1412.52,375.48,Partner,Business
+ORD-000276,2025-06-04,East,Japan,Webcam Plus,Electronics,5,95,475.00,361.00,114.00,Partner,Consumer
+ORD-000277,2025-08-05,West,United States,Analytics Pro,Software,1,249,249.00,126.99,122.01,Retail,Consumer
+ORD-000278,2024-03-17,North,Canada,Wireless Keyboard,Electronics,6,79,474.00,336.54,137.46,Partner,Consumer
+ORD-000279,2025-12-18,North,Canada,Wireless Keyboard,Electronics,7,79,553.00,342.86,210.14,Online,Business
+ORD-000280,2025-09-05,East,Japan,Analytics Pro,Software,5,249,1245.00,958.65,286.35,Online,Enterprise
+ORD-000281,2026-04-17,South,Brazil,Notebook Set,Office,4,18,72.00,41.04,30.96,Online,Consumer
+ORD-000282,2025-12-11,West,United States,Wireless Keyboard,Electronics,10,79,790.00,584.60,205.40,Partner,Consumer
+ORD-000283,2026-05-17,North,Canada,Wireless Keyboard,Electronics,3,79,237.00,161.16,75.84,Partner,Enterprise
+ORD-000284,2026-04-23,West,United States,Webcam Plus,Electronics,12,95,1140.00,832.20,307.80,Retail,Consumer
+ORD-000285,2024-04-05,South,Brazil,Analytics Pro,Software,11,249,2739.00,1588.62,1150.38,Partner,Enterprise
+ORD-000286,2025-08-11,South,Brazil,Notebook Set,Office,9,18,162.00,100.44,61.56,Partner,Consumer
+ORD-000287,2025-07-15,West,United States,Webcam Plus,Electronics,8,95,760.00,570.00,190.00,Partner,Business
+ORD-000288,2026-07-28,East,Japan,Wireless Keyboard,Electronics,7,79,553.00,398.16,154.84,Retail,Enterprise
+ORD-000289,2026-06-01,East,Japan,Cloud Suite,Software,10,149,1490.00,894.00,596.00,Retail,Consumer
+ORD-000290,2025-04-18,South,Brazil,Notebook Set,Office,9,18,162.00,95.58,66.42,Partner,Consumer
+ORD-000291,2026-12-06,South,Brazil,Notebook Set,Office,3,18,54.00,34.02,19.98,Retail,Enterprise
+ORD-000292,2024-03-09,West,United States,Notebook Set,Office,4,18,72.00,51.84,20.16,Online,Business
+ORD-000293,2024-05-13,North,Canada,Standing Desk,Office,7,450,3150.00,2331.00,819.00,Partner,Business
+ORD-000294,2025-06-22,West,United States,Webcam Plus,Electronics,6,95,570.00,404.70,165.30,Retail,Business
+ORD-000295,2024-03-02,East,Japan,Cloud Suite,Software,11,149,1639.00,1016.18,622.82,Partner,Consumer
+ORD-000296,2025-11-02,East,Japan,Webcam Plus,Electronics,3,95,285.00,168.15,116.85,Online,Business
+ORD-000297,2024-04-03,North,Canada,Wireless Keyboard,Electronics,7,79,553.00,326.27,226.73,Retail,Enterprise
+ORD-000298,2024-07-09,East,Japan,Desk Lamp,Office,3,45,135.00,71.55,63.45,Online,Enterprise
+ORD-000299,2026-01-25,West,United States,Standing Desk,Office,11,450,4950.00,3663.00,1287.00,Retail,Business
+ORD-000300,2026-04-24,East,Japan,Standing Desk,Office,7,450,3150.00,2110.50,1039.50,Online,Business
+ORD-000301,2024-12-31,South,Brazil,Analytics Pro,Software,4,249,996.00,786.84,209.16,Partner,Consumer
+ORD-000302,2025-07-21,West,United States,Wireless Keyboard,Electronics,10,79,790.00,410.80,379.20,Retail,Business
+ORD-000303,2026-04-25,West,United States,Cloud Suite,Software,5,149,745.00,402.30,342.70,Retail,Business
+ORD-000304,2024-10-23,West,United States,Desk Lamp,Office,12,45,540.00,313.20,226.80,Partner,Business
+ORD-000305,2025-04-11,West,United States,Cloud Suite,Software,3,149,447.00,277.14,169.86,Partner,Consumer
+ORD-000306,2025-01-06,North,Canada,Desk Lamp,Office,6,45,270.00,159.30,110.70,Partner,Consumer
+ORD-000307,2025-07-09,North,Canada,Webcam Plus,Electronics,10,95,950.00,636.50,313.50,Retail,Consumer
+ORD-000308,2024-10-29,North,Canada,Wireless Keyboard,Electronics,6,79,474.00,331.80,142.20,Partner,Consumer
+ORD-000309,2026-06-10,South,Brazil,Studio Monitor,Electronics,2,320,640.00,486.40,153.60,Partner,Consumer
+ORD-000310,2024-04-03,North,Canada,Analytics Pro,Software,7,249,1743.00,1307.25,435.75,Partner,Consumer
+ORD-000311,2025-02-24,South,Brazil,Wireless Keyboard,Electronics,4,79,316.00,240.16,75.84,Online,Consumer
+ORD-000312,2024-08-04,West,United States,Studio Monitor,Electronics,12,320,3840.00,2880.00,960.00,Retail,Business
+ORD-000313,2026-03-31,North,Canada,Cloud Suite,Software,7,149,1043.00,803.11,239.89,Retail,Business
+ORD-000314,2025-01-04,West,United States,Wireless Keyboard,Electronics,7,79,553.00,431.34,121.66,Online,Consumer
+ORD-000315,2024-08-17,South,Brazil,Standing Desk,Office,3,450,1350.00,877.50,472.50,Retail,Business
+ORD-000316,2026-12-18,South,Brazil,Studio Monitor,Electronics,5,320,1600.00,1184.00,416.00,Retail,Consumer
+ORD-000317,2025-12-30,South,Brazil,Standing Desk,Office,10,450,4500.00,3060.00,1440.00,Partner,Enterprise
+ORD-000318,2024-07-16,East,Japan,Cloud Suite,Software,12,149,1788.00,983.40,804.60,Online,Enterprise
+ORD-000319,2026-08-03,East,Japan,Wireless Keyboard,Electronics,4,79,316.00,211.72,104.28,Retail,Enterprise
+ORD-000320,2026-05-03,West,United States,Webcam Plus,Electronics,1,95,95.00,48.45,46.55,Retail,Consumer
+ORD-000321,2026-07-20,North,Canada,Analytics Pro,Software,2,249,498.00,368.52,129.48,Partner,Consumer
+ORD-000322,2026-10-27,North,Canada,Wireless Keyboard,Electronics,9,79,711.00,540.36,170.64,Online,Business
+ORD-000323,2026-01-28,West,United States,Standing Desk,Office,3,450,1350.00,945.00,405.00,Online,Business
+ORD-000324,2026-11-20,South,Brazil,Standing Desk,Office,9,450,4050.00,2106.00,1944.00,Partner,Enterprise
+ORD-000325,2025-04-15,East,Japan,Studio Monitor,Electronics,2,320,640.00,396.80,243.20,Retail,Enterprise
+ORD-000326,2024-01-12,North,Canada,Wireless Keyboard,Electronics,8,79,632.00,499.28,132.72,Retail,Enterprise
+ORD-000327,2026-03-21,West,United States,Wireless Keyboard,Electronics,7,79,553.00,425.81,127.19,Partner,Business
+ORD-000328,2024-03-21,East,Japan,Notebook Set,Office,9,18,162.00,108.54,53.46,Partner,Consumer
+ORD-000329,2026-12-13,West,United States,Desk Lamp,Office,1,45,45.00,22.50,22.50,Retail,Business
+ORD-000330,2026-04-17,West,United States,Standing Desk,Office,12,450,5400.00,3834.00,1566.00,Online,Consumer
+ORD-000331,2024-07-26,West,United States,Cloud Suite,Software,9,149,1341.00,1032.57,308.43,Online,Enterprise
+ORD-000332,2024-04-11,West,United States,Webcam Plus,Electronics,3,95,285.00,171.00,114.00,Online,Enterprise
+ORD-000333,2024-12-22,North,Canada,Studio Monitor,Electronics,3,320,960.00,508.80,451.20,Online,Consumer
+ORD-000334,2026-04-23,West,United States,Wireless Keyboard,Electronics,1,79,79.00,53.72,25.28,Partner,Consumer
+ORD-000335,2026-03-22,West,United States,Cloud Suite,Software,12,149,1788.00,1197.96,590.04,Partner,Business
+ORD-000336,2024-01-27,West,United States,Cloud Suite,Software,4,149,596.00,369.52,226.48,Online,Enterprise
+ORD-000337,2024-10-03,South,Brazil,Webcam Plus,Electronics,1,95,95.00,57.95,37.05,Online,Enterprise
+ORD-000338,2026-06-13,South,Brazil,Studio Monitor,Electronics,6,320,1920.00,1094.40,825.60,Partner,Enterprise
+ORD-000339,2026-06-06,West,United States,Desk Lamp,Office,9,45,405.00,267.30,137.70,Retail,Enterprise
+ORD-000340,2026-07-23,South,Brazil,Cloud Suite,Software,8,149,1192.00,798.64,393.36,Retail,Business
+ORD-000341,2024-11-28,North,Canada,Desk Lamp,Office,12,45,540.00,351.00,189.00,Partner,Business
+ORD-000342,2025-05-19,South,Brazil,Cloud Suite,Software,2,149,298.00,178.80,119.20,Online,Consumer
+ORD-000343,2026-03-10,East,Japan,Webcam Plus,Electronics,1,95,95.00,50.35,44.65,Retail,Enterprise
+ORD-000344,2024-09-25,West,United States,Standing Desk,Office,6,450,2700.00,1728.00,972.00,Partner,Enterprise
+ORD-000345,2026-06-25,South,Brazil,Cloud Suite,Software,4,149,596.00,470.84,125.16,Retail,Business
+ORD-000346,2024-04-18,South,Brazil,Cloud Suite,Software,11,149,1639.00,835.89,803.11,Partner,Consumer
+ORD-000347,2025-03-03,South,Brazil,Webcam Plus,Electronics,5,95,475.00,346.75,128.25,Online,Consumer
+ORD-000348,2025-10-30,West,United States,Wireless Keyboard,Electronics,1,79,79.00,41.08,37.92,Retail,Consumer
+ORD-000349,2026-09-25,West,United States,Notebook Set,Office,10,18,180.00,127.80,52.20,Partner,Business
+ORD-000350,2026-05-10,South,Brazil,Wireless Keyboard,Electronics,1,79,79.00,56.88,22.12,Partner,Enterprise
+ORD-000351,2026-11-20,East,Japan,Analytics Pro,Software,4,249,996.00,617.52,378.48,Retail,Enterprise
+ORD-000352,2025-01-27,East,Japan,Cloud Suite,Software,12,149,1788.00,1376.76,411.24,Partner,Business
+ORD-000353,2026-11-17,East,Japan,Webcam Plus,Electronics,10,95,950.00,532.00,418.00,Partner,Consumer
+ORD-000354,2024-11-06,West,United States,Notebook Set,Office,12,18,216.00,142.56,73.44,Online,Consumer
+ORD-000355,2025-12-17,East,Japan,Wireless Keyboard,Electronics,11,79,869.00,582.23,286.77,Partner,Enterprise
+ORD-000356,2025-06-29,East,Japan,Studio Monitor,Electronics,7,320,2240.00,1433.60,806.40,Retail,Consumer
+ORD-000357,2026-11-29,North,Canada,Cloud Suite,Software,4,149,596.00,441.04,154.96,Online,Business
+ORD-000358,2024-04-15,East,Japan,Analytics Pro,Software,1,249,249.00,176.79,72.21,Partner,Enterprise
+ORD-000359,2025-12-17,West,United States,Notebook Set,Office,1,18,18.00,11.88,6.12,Retail,Enterprise
+ORD-000360,2026-09-11,West,United States,Wireless Keyboard,Electronics,9,79,711.00,383.94,327.06,Partner,Enterprise
+ORD-000361,2026-06-14,South,Brazil,Webcam Plus,Electronics,8,95,760.00,418.00,342.00,Partner,Enterprise
+ORD-000362,2025-04-26,West,United States,Notebook Set,Office,11,18,198.00,104.94,93.06,Retail,Consumer
+ORD-000363,2026-01-24,West,United States,Wireless Keyboard,Electronics,8,79,632.00,372.88,259.12,Retail,Business
+ORD-000364,2026-07-23,South,Brazil,Standing Desk,Office,8,450,3600.00,2340.00,1260.00,Partner,Business
+ORD-000365,2024-03-13,South,Brazil,Desk Lamp,Office,2,45,90.00,52.20,37.80,Online,Enterprise
+ORD-000366,2025-03-26,East,Japan,Studio Monitor,Electronics,1,320,320.00,211.20,108.80,Partner,Enterprise
+ORD-000367,2026-08-07,West,United States,Desk Lamp,Office,5,45,225.00,132.75,92.25,Partner,Business
+ORD-000368,2026-05-07,South,Brazil,Cloud Suite,Software,5,149,745.00,588.55,156.45,Online,Consumer
+ORD-000369,2024-05-29,West,United States,Desk Lamp,Office,5,45,225.00,112.50,112.50,Retail,Business
+ORD-000370,2026-06-29,North,Canada,Desk Lamp,Office,7,45,315.00,242.55,72.45,Partner,Business
+ORD-000371,2026-03-11,West,United States,Notebook Set,Office,4,18,72.00,49.68,22.32,Retail,Business
+ORD-000372,2024-08-16,South,Brazil,Notebook Set,Office,4,18,72.00,49.68,22.32,Partner,Business
+ORD-000373,2026-07-22,North,Canada,Analytics Pro,Software,7,249,1743.00,1254.96,488.04,Retail,Business
+ORD-000374,2025-06-17,North,Canada,Wireless Keyboard,Electronics,12,79,948.00,635.16,312.84,Partner,Enterprise
+ORD-000375,2026-01-28,West,United States,Wireless Keyboard,Electronics,4,79,316.00,199.08,116.92,Partner,Consumer
+ORD-000376,2025-01-02,East,Japan,Notebook Set,Office,8,18,144.00,86.40,57.60,Online,Business
+ORD-000377,2026-01-07,East,Japan,Notebook Set,Office,1,18,18.00,10.62,7.38,Partner,Consumer
+ORD-000378,2026-04-28,West,United States,Cloud Suite,Software,11,149,1639.00,1130.91,508.09,Online,Business
+ORD-000379,2024-10-16,North,Canada,Notebook Set,Office,7,18,126.00,71.82,54.18,Retail,Enterprise
+ORD-000380,2026-08-02,North,Canada,Webcam Plus,Electronics,6,95,570.00,364.80,205.20,Partner,Consumer
+ORD-000381,2024-06-28,East,Japan,Cloud Suite,Software,8,149,1192.00,846.32,345.68,Partner,Enterprise
+ORD-000382,2026-11-17,East,Japan,Cloud Suite,Software,3,149,447.00,330.78,116.22,Partner,Business
+ORD-000383,2026-04-21,East,Japan,Notebook Set,Office,10,18,180.00,100.80,79.20,Partner,Enterprise
+ORD-000384,2026-08-27,North,Canada,Desk Lamp,Office,3,45,135.00,99.90,35.10,Retail,Enterprise
+ORD-000385,2025-06-10,South,Brazil,Cloud Suite,Software,8,149,1192.00,798.64,393.36,Online,Business
+ORD-000386,2025-09-01,East,Japan,Cloud Suite,Software,9,149,1341.00,992.34,348.66,Partner,Business
+ORD-000387,2025-04-24,West,United States,Desk Lamp,Office,6,45,270.00,213.30,56.70,Partner,Consumer
+ORD-000388,2026-12-23,South,Brazil,Wireless Keyboard,Electronics,3,79,237.00,120.87,116.13,Online,Consumer
+ORD-000389,2026-11-03,West,United States,Desk Lamp,Office,11,45,495.00,272.25,222.75,Online,Consumer
+ORD-000390,2025-08-20,West,United States,Desk Lamp,Office,2,45,90.00,53.10,36.90,Retail,Consumer
+ORD-000391,2024-04-08,North,Canada,Desk Lamp,Office,6,45,270.00,178.20,91.80,Retail,Consumer
+ORD-000392,2026-09-29,South,Brazil,Studio Monitor,Electronics,10,320,3200.00,2496.00,704.00,Online,Enterprise
+ORD-000393,2026-12-18,East,Japan,Notebook Set,Office,11,18,198.00,148.50,49.50,Online,Enterprise
+ORD-000394,2025-04-06,North,Canada,Analytics Pro,Software,11,249,2739.00,1561.23,1177.77,Online,Business
+ORD-000395,2026-05-09,West,United States,Analytics Pro,Software,12,249,2988.00,2031.84,956.16,Online,Consumer
+ORD-000396,2025-01-13,West,United States,Studio Monitor,Electronics,12,320,3840.00,2841.60,998.40,Online,Consumer
+ORD-000397,2026-12-28,East,Japan,Webcam Plus,Electronics,6,95,570.00,376.20,193.80,Online,Enterprise
+ORD-000398,2024-11-30,East,Japan,Cloud Suite,Software,8,149,1192.00,715.20,476.80,Retail,Enterprise
+ORD-000399,2024-06-06,East,Japan,Studio Monitor,Electronics,10,320,3200.00,2432.00,768.00,Partner,Enterprise
+ORD-000400,2026-05-04,South,Brazil,Notebook Set,Office,5,18,90.00,64.80,25.20,Online,Enterprise
+ORD-000401,2026-09-15,South,Brazil,Wireless Keyboard,Electronics,11,79,869.00,486.64,382.36,Partner,Enterprise
+ORD-000402,2025-10-27,West,United States,Wireless Keyboard,Electronics,2,79,158.00,79.00,79.00,Online,Business
+ORD-000403,2024-10-11,South,Brazil,Studio Monitor,Electronics,2,320,640.00,358.40,281.60,Retail,Business
+ORD-000404,2025-06-19,South,Brazil,Standing Desk,Office,4,450,1800.00,1188.00,612.00,Retail,Consumer
+ORD-000405,2025-07-16,North,Canada,Cloud Suite,Software,3,149,447.00,295.02,151.98,Partner,Enterprise
+ORD-000406,2026-11-27,West,United States,Analytics Pro,Software,11,249,2739.00,1752.96,986.04,Retail,Enterprise
+ORD-000407,2025-01-17,East,Japan,Wireless Keyboard,Electronics,11,79,869.00,590.92,278.08,Retail,Consumer
+ORD-000408,2026-12-19,North,Canada,Webcam Plus,Electronics,6,95,570.00,353.40,216.60,Retail,Enterprise
+ORD-000409,2026-09-27,South,Brazil,Cloud Suite,Software,11,149,1639.00,1065.35,573.65,Partner,Enterprise
+ORD-000410,2025-05-24,West,United States,Cloud Suite,Software,9,149,1341.00,885.06,455.94,Partner,Consumer
+ORD-000411,2025-10-11,South,Brazil,Studio Monitor,Electronics,1,320,320.00,243.20,76.80,Partner,Consumer
+ORD-000412,2025-11-01,South,Brazil,Webcam Plus,Electronics,2,95,190.00,96.90,93.10,Online,Enterprise
+ORD-000413,2025-05-23,West,United States,Webcam Plus,Electronics,11,95,1045.00,574.75,470.25,Retail,Enterprise
+ORD-000414,2024-12-21,South,Brazil,Cloud Suite,Software,3,149,447.00,245.85,201.15,Online,Consumer
+ORD-000415,2026-06-14,North,Canada,Webcam Plus,Electronics,5,95,475.00,342.00,133.00,Partner,Consumer
+ORD-000416,2024-02-15,South,Brazil,Standing Desk,Office,3,450,1350.00,783.00,567.00,Partner,Consumer
+ORD-000417,2024-08-25,North,Canada,Wireless Keyboard,Electronics,9,79,711.00,383.94,327.06,Online,Business
+ORD-000418,2025-11-06,West,United States,Webcam Plus,Electronics,5,95,475.00,237.50,237.50,Partner,Business
+ORD-000419,2026-11-05,East,Japan,Standing Desk,Office,6,450,2700.00,1593.00,1107.00,Online,Consumer
+ORD-000420,2026-09-24,South,Brazil,Studio Monitor,Electronics,8,320,2560.00,1689.60,870.40,Retail,Business
+ORD-000421,2026-04-16,South,Brazil,Cloud Suite,Software,9,149,1341.00,925.29,415.71,Retail,Business
+ORD-000422,2026-01-05,West,United States,Analytics Pro,Software,5,249,1245.00,908.85,336.15,Retail,Consumer
+ORD-000423,2025-03-29,West,United States,Standing Desk,Office,6,450,2700.00,1836.00,864.00,Retail,Consumer
+ORD-000424,2026-07-08,South,Brazil,Standing Desk,Office,1,450,450.00,292.50,157.50,Online,Consumer
+ORD-000425,2026-07-18,North,Canada,Analytics Pro,Software,4,249,996.00,717.12,278.88,Partner,Business
+ORD-000426,2024-08-02,North,Canada,Studio Monitor,Electronics,6,320,1920.00,1132.80,787.20,Online,Business
+ORD-000427,2026-09-12,West,United States,Webcam Plus,Electronics,11,95,1045.00,731.50,313.50,Retail,Consumer
+ORD-000428,2025-07-13,South,Brazil,Standing Desk,Office,6,450,2700.00,1458.00,1242.00,Partner,Business
+ORD-000429,2024-10-12,East,Japan,Webcam Plus,Electronics,3,95,285.00,185.25,99.75,Online,Business
+ORD-000430,2024-12-29,East,Japan,Wireless Keyboard,Electronics,11,79,869.00,590.92,278.08,Retail,Consumer
+ORD-000431,2024-06-11,East,Japan,Studio Monitor,Electronics,9,320,2880.00,2102.40,777.60,Retail,Enterprise
+ORD-000432,2025-12-06,West,United States,Analytics Pro,Software,9,249,2241.00,1411.83,829.17,Online,Consumer
+ORD-000433,2026-06-27,East,Japan,Desk Lamp,Office,8,45,360.00,187.20,172.80,Partner,Enterprise
+ORD-000434,2024-05-31,East,Japan,Notebook Set,Office,11,18,198.00,100.98,97.02,Online,Business
+ORD-000435,2026-02-23,East,Japan,Webcam Plus,Electronics,4,95,380.00,228.00,152.00,Partner,Consumer
+ORD-000436,2026-12-06,North,Canada,Webcam Plus,Electronics,12,95,1140.00,809.40,330.60,Retail,Business
+ORD-000437,2025-08-19,West,United States,Webcam Plus,Electronics,1,95,95.00,70.30,24.70,Partner,Enterprise
+ORD-000438,2024-09-05,East,Japan,Analytics Pro,Software,8,249,1992.00,1314.72,677.28,Retail,Business
+ORD-000439,2026-07-29,West,United States,Webcam Plus,Electronics,4,95,380.00,262.20,117.80,Partner,Business
+ORD-000440,2025-11-06,South,Brazil,Wireless Keyboard,Electronics,5,79,395.00,201.45,193.55,Partner,Consumer
+ORD-000441,2024-05-17,West,United States,Webcam Plus,Electronics,12,95,1140.00,581.40,558.60,Partner,Consumer
+ORD-000442,2025-08-17,East,Japan,Cloud Suite,Software,12,149,1788.00,1341.00,447.00,Partner,Consumer
+ORD-000443,2026-11-23,South,Brazil,Wireless Keyboard,Electronics,2,79,158.00,120.08,37.92,Partner,Business
+ORD-000444,2025-02-06,West,United States,Cloud Suite,Software,5,149,745.00,379.95,365.05,Partner,Consumer
+ORD-000445,2025-09-05,East,Japan,Notebook Set,Office,4,18,72.00,41.04,30.96,Online,Consumer
+ORD-000446,2025-07-21,North,Canada,Analytics Pro,Software,2,249,498.00,348.60,149.40,Retail,Business
+ORD-000447,2024-08-30,West,United States,Desk Lamp,Office,1,45,45.00,30.60,14.40,Online,Business
+ORD-000448,2026-09-12,West,United States,Desk Lamp,Office,5,45,225.00,164.25,60.75,Partner,Enterprise
+ORD-000449,2025-04-08,West,United States,Notebook Set,Office,7,18,126.00,80.64,45.36,Retail,Consumer
+ORD-000450,2024-04-06,East,Japan,Notebook Set,Office,4,18,72.00,42.48,29.52,Partner,Business
+ORD-000451,2025-04-04,West,United States,Analytics Pro,Software,11,249,2739.00,1917.30,821.70,Partner,Business
+ORD-000452,2026-07-28,South,Brazil,Notebook Set,Office,2,18,36.00,23.76,12.24,Online,Consumer
+ORD-000453,2024-02-03,West,United States,Analytics Pro,Software,1,249,249.00,156.87,92.13,Online,Consumer
+ORD-000454,2024-11-28,West,United States,Studio Monitor,Electronics,2,320,640.00,441.60,198.40,Retail,Enterprise
+ORD-000455,2024-03-20,West,United States,Standing Desk,Office,2,450,900.00,657.00,243.00,Retail,Business
+ORD-000456,2024-10-31,West,United States,Desk Lamp,Office,6,45,270.00,186.30,83.70,Online,Business
+ORD-000457,2026-02-09,West,United States,Standing Desk,Office,12,450,5400.00,3402.00,1998.00,Online,Business
+ORD-000458,2025-07-19,South,Brazil,Analytics Pro,Software,12,249,2988.00,2300.76,687.24,Online,Business
+ORD-000459,2024-11-11,North,Canada,Standing Desk,Office,12,450,5400.00,3402.00,1998.00,Partner,Business
+ORD-000460,2026-10-10,East,Japan,Desk Lamp,Office,5,45,225.00,153.00,72.00,Retail,Consumer
+ORD-000461,2026-02-11,North,Canada,Analytics Pro,Software,9,249,2241.00,1322.19,918.81,Partner,Consumer
+ORD-000462,2025-02-27,North,Canada,Webcam Plus,Electronics,4,95,380.00,300.20,79.80,Partner,Consumer
+ORD-000463,2024-02-05,North,Canada,Analytics Pro,Software,2,249,498.00,293.82,204.18,Partner,Consumer
+ORD-000464,2025-03-06,South,Brazil,Cloud Suite,Software,4,149,596.00,435.08,160.92,Partner,Business
+ORD-000465,2025-12-11,South,Brazil,Webcam Plus,Electronics,11,95,1045.00,543.40,501.60,Online,Consumer
+ORD-000466,2024-07-15,East,Japan,Cloud Suite,Software,9,149,1341.00,777.78,563.22,Online,Business
+ORD-000467,2026-03-29,East,Japan,Studio Monitor,Electronics,9,320,2880.00,2044.80,835.20,Retail,Business
+ORD-000468,2024-04-19,South,Brazil,Desk Lamp,Office,4,45,180.00,100.80,79.20,Online,Enterprise
+ORD-000469,2025-03-21,East,Japan,Standing Desk,Office,6,450,2700.00,1701.00,999.00,Online,Enterprise
+ORD-000470,2024-04-19,West,United States,Wireless Keyboard,Electronics,8,79,632.00,480.32,151.68,Retail,Consumer
+ORD-000471,2025-05-11,South,Brazil,Webcam Plus,Electronics,3,95,285.00,148.20,136.80,Partner,Enterprise
+ORD-000472,2025-07-26,East,Japan,Notebook Set,Office,10,18,180.00,99.00,81.00,Partner,Consumer
+ORD-000473,2026-07-14,South,Brazil,Studio Monitor,Electronics,3,320,960.00,480.00,480.00,Retail,Consumer
+ORD-000474,2025-12-05,East,Japan,Cloud Suite,Software,12,149,1788.00,929.76,858.24,Online,Consumer
+ORD-000475,2026-05-21,South,Brazil,Cloud Suite,Software,8,149,1192.00,762.88,429.12,Partner,Business
+ORD-000476,2024-10-29,West,United States,Standing Desk,Office,9,450,4050.00,3199.50,850.50,Retail,Business
+ORD-000477,2026-09-10,North,Canada,Webcam Plus,Electronics,7,95,665.00,432.25,232.75,Online,Enterprise
+ORD-000478,2024-07-30,West,United States,Standing Desk,Office,5,450,2250.00,1282.50,967.50,Retail,Enterprise
+ORD-000479,2026-01-09,East,Japan,Webcam Plus,Electronics,5,95,475.00,285.00,190.00,Retail,Consumer
+ORD-000480,2026-10-07,North,Canada,Cloud Suite,Software,9,149,1341.00,965.52,375.48,Online,Consumer
+ORD-000481,2026-06-03,West,United States,Notebook Set,Office,11,18,198.00,120.78,77.22,Retail,Consumer
+ORD-000482,2025-01-29,West,United States,Notebook Set,Office,3,18,54.00,38.34,15.66,Online,Enterprise
+ORD-000483,2025-03-25,West,United States,Standing Desk,Office,6,450,2700.00,2079.00,621.00,Retail,Consumer
+ORD-000484,2025-09-26,East,Japan,Desk Lamp,Office,8,45,360.00,198.00,162.00,Online,Enterprise
+ORD-000485,2025-09-04,South,Brazil,Notebook Set,Office,11,18,198.00,140.58,57.42,Online,Enterprise
+ORD-000486,2026-05-11,North,Canada,Desk Lamp,Office,9,45,405.00,206.55,198.45,Retail,Enterprise
+ORD-000487,2025-10-07,East,Japan,Analytics Pro,Software,1,249,249.00,161.85,87.15,Retail,Business
+ORD-000488,2026-03-10,East,Japan,Desk Lamp,Office,9,45,405.00,287.55,117.45,Retail,Consumer
+ORD-000489,2026-06-09,West,United States,Desk Lamp,Office,1,45,45.00,25.20,19.80,Online,Business
+ORD-000490,2025-03-16,South,Brazil,Standing Desk,Office,3,450,1350.00,1012.50,337.50,Partner,Business
+ORD-000491,2024-01-31,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,1760.00,1760.00,Partner,Business
+ORD-000492,2026-06-02,East,Japan,Desk Lamp,Office,11,45,495.00,326.70,168.30,Retail,Business
+ORD-000493,2026-08-22,North,Canada,Studio Monitor,Electronics,2,320,640.00,435.20,204.80,Partner,Enterprise
+ORD-000494,2025-02-20,West,United States,Wireless Keyboard,Electronics,10,79,790.00,434.50,355.50,Retail,Business
+ORD-000495,2025-07-31,East,Japan,Studio Monitor,Electronics,8,320,2560.00,1792.00,768.00,Partner,Consumer
+ORD-000496,2025-04-19,South,Brazil,Cloud Suite,Software,9,149,1341.00,818.01,522.99,Retail,Business
+ORD-000497,2025-08-19,West,United States,Webcam Plus,Electronics,6,95,570.00,438.90,131.10,Online,Consumer
+ORD-000498,2024-10-03,West,United States,Desk Lamp,Office,6,45,270.00,207.90,62.10,Partner,Enterprise
+ORD-000499,2024-12-24,West,United States,Analytics Pro,Software,11,249,2739.00,1889.91,849.09,Partner,Enterprise
+ORD-000500,2025-04-09,North,Canada,Cloud Suite,Software,8,149,1192.00,894.00,298.00,Partner,Business
+ORD-000501,2026-04-15,South,Brazil,Cloud Suite,Software,12,149,1788.00,1126.44,661.56,Online,Business
+ORD-000502,2026-10-25,South,Brazil,Notebook Set,Office,5,18,90.00,49.50,40.50,Partner,Business
+ORD-000503,2025-05-05,West,United States,Notebook Set,Office,2,18,36.00,26.64,9.36,Online,Enterprise
+ORD-000504,2026-09-11,West,United States,Analytics Pro,Software,9,249,2241.00,1142.91,1098.09,Retail,Consumer
+ORD-000505,2025-08-30,West,United States,Notebook Set,Office,4,18,72.00,44.64,27.36,Retail,Business
+ORD-000506,2025-12-31,East,Japan,Standing Desk,Office,7,450,3150.00,2488.50,661.50,Online,Business
+ORD-000507,2024-12-26,South,Brazil,Analytics Pro,Software,1,249,249.00,129.48,119.52,Partner,Business
+ORD-000508,2024-05-19,West,United States,Wireless Keyboard,Electronics,9,79,711.00,447.93,263.07,Online,Enterprise
+ORD-000509,2025-11-21,West,United States,Standing Desk,Office,9,450,4050.00,2146.50,1903.50,Online,Consumer
+ORD-000510,2024-01-21,East,Japan,Studio Monitor,Electronics,10,320,3200.00,2432.00,768.00,Partner,Consumer
+ORD-000511,2025-05-02,West,United States,Standing Desk,Office,3,450,1350.00,837.00,513.00,Partner,Consumer
+ORD-000512,2026-11-19,West,United States,Webcam Plus,Electronics,2,95,190.00,123.50,66.50,Partner,Consumer
+ORD-000513,2025-08-05,North,Canada,Analytics Pro,Software,11,249,2739.00,2081.64,657.36,Partner,Consumer
+ORD-000514,2025-10-06,East,Japan,Notebook Set,Office,10,18,180.00,142.20,37.80,Partner,Business
+ORD-000515,2026-06-08,North,Canada,Desk Lamp,Office,6,45,270.00,159.30,110.70,Online,Consumer
+ORD-000516,2026-11-21,East,Japan,Desk Lamp,Office,8,45,360.00,219.60,140.40,Online,Business
+ORD-000517,2025-02-03,North,Canada,Studio Monitor,Electronics,6,320,1920.00,1363.20,556.80,Partner,Consumer
+ORD-000518,2026-12-08,South,Brazil,Webcam Plus,Electronics,4,95,380.00,269.80,110.20,Online,Business
+ORD-000519,2025-09-11,South,Brazil,Wireless Keyboard,Electronics,2,79,158.00,105.86,52.14,Online,Consumer
+ORD-000520,2025-10-01,West,United States,Notebook Set,Office,5,18,90.00,58.50,31.50,Partner,Consumer
+ORD-000521,2025-03-02,West,United States,Wireless Keyboard,Electronics,5,79,395.00,217.25,177.75,Retail,Consumer
+ORD-000522,2024-05-29,North,Canada,Webcam Plus,Electronics,8,95,760.00,471.20,288.80,Online,Consumer
+ORD-000523,2024-02-03,South,Brazil,Webcam Plus,Electronics,8,95,760.00,516.80,243.20,Partner,Business
+ORD-000524,2024-01-17,South,Brazil,Notebook Set,Office,3,18,54.00,34.02,19.98,Partner,Business
+ORD-000525,2024-02-13,South,Brazil,Standing Desk,Office,1,450,450.00,292.50,157.50,Partner,Business
+ORD-000526,2024-09-20,East,Japan,Desk Lamp,Office,10,45,450.00,351.00,99.00,Partner,Business
+ORD-000527,2026-10-29,West,United States,Standing Desk,Office,2,450,900.00,450.00,450.00,Partner,Business
+ORD-000528,2025-09-11,South,Brazil,Desk Lamp,Office,7,45,315.00,236.25,78.75,Retail,Business
+ORD-000529,2024-06-20,East,Japan,Desk Lamp,Office,5,45,225.00,141.75,83.25,Online,Enterprise
+ORD-000530,2025-12-09,West,United States,Studio Monitor,Electronics,3,320,960.00,739.20,220.80,Retail,Business
+ORD-000531,2026-04-12,West,United States,Wireless Keyboard,Electronics,4,79,316.00,164.32,151.68,Online,Enterprise
+ORD-000532,2025-12-19,West,United States,Desk Lamp,Office,12,45,540.00,297.00,243.00,Retail,Enterprise
+ORD-000533,2025-06-07,North,Canada,Studio Monitor,Electronics,11,320,3520.00,2569.60,950.40,Partner,Enterprise
+ORD-000534,2025-11-01,East,Japan,Webcam Plus,Electronics,3,95,285.00,202.35,82.65,Retail,Business
+ORD-000535,2024-09-11,West,United States,Analytics Pro,Software,6,249,1494.00,791.82,702.18,Retail,Enterprise
+ORD-000536,2026-06-28,West,United States,Webcam Plus,Electronics,3,95,285.00,182.40,102.60,Retail,Consumer
+ORD-000537,2026-01-31,South,Brazil,Standing Desk,Office,9,450,4050.00,3078.00,972.00,Online,Consumer
+ORD-000538,2026-05-04,East,Japan,Cloud Suite,Software,5,149,745.00,528.95,216.05,Partner,Enterprise
+ORD-000539,2025-12-02,East,Japan,Notebook Set,Office,9,18,162.00,93.96,68.04,Retail,Consumer
+ORD-000540,2025-01-19,South,Brazil,Analytics Pro,Software,10,249,2490.00,1543.80,946.20,Online,Business
+ORD-000541,2025-11-01,East,Japan,Notebook Set,Office,6,18,108.00,77.76,30.24,Retail,Business
+ORD-000542,2026-01-14,East,Japan,Cloud Suite,Software,9,149,1341.00,938.70,402.30,Retail,Business
+ORD-000543,2025-02-21,East,Japan,Studio Monitor,Electronics,1,320,320.00,166.40,153.60,Partner,Consumer
+ORD-000544,2024-10-15,East,Japan,Cloud Suite,Software,3,149,447.00,281.61,165.39,Partner,Consumer
+ORD-000545,2024-08-19,South,Brazil,Standing Desk,Office,12,450,5400.00,3186.00,2214.00,Online,Consumer
+ORD-000546,2026-01-29,South,Brazil,Analytics Pro,Software,2,249,498.00,368.52,129.48,Online,Business
+ORD-000547,2026-07-08,East,Japan,Wireless Keyboard,Electronics,4,79,316.00,246.48,69.52,Retail,Business
+ORD-000548,2024-02-08,East,Japan,Studio Monitor,Electronics,12,320,3840.00,2803.20,1036.80,Partner,Consumer
+ORD-000549,2025-12-29,South,Brazil,Studio Monitor,Electronics,2,320,640.00,435.20,204.80,Retail,Enterprise
+ORD-000550,2024-10-10,East,Japan,Webcam Plus,Electronics,10,95,950.00,741.00,209.00,Online,Business
+ORD-000551,2026-01-17,North,Canada,Wireless Keyboard,Electronics,1,79,79.00,45.82,33.18,Retail,Enterprise
+ORD-000552,2024-05-08,South,Brazil,Wireless Keyboard,Electronics,7,79,553.00,320.74,232.26,Online,Business
+ORD-000553,2025-10-16,East,Japan,Analytics Pro,Software,9,249,2241.00,1187.73,1053.27,Retail,Enterprise
+ORD-000554,2024-10-21,South,Brazil,Studio Monitor,Electronics,5,320,1600.00,832.00,768.00,Retail,Consumer
+ORD-000555,2024-02-03,North,Canada,Studio Monitor,Electronics,2,320,640.00,435.20,204.80,Online,Business
+ORD-000556,2024-02-26,West,United States,Cloud Suite,Software,8,149,1192.00,619.84,572.16,Online,Consumer
+ORD-000557,2024-06-02,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,2464.00,1056.00,Online,Enterprise
+ORD-000558,2026-09-22,East,Japan,Webcam Plus,Electronics,11,95,1045.00,585.20,459.80,Partner,Consumer
+ORD-000559,2024-06-27,East,Japan,Wireless Keyboard,Electronics,11,79,869.00,512.71,356.29,Partner,Business
+ORD-000560,2026-12-06,South,Brazil,Webcam Plus,Electronics,1,95,95.00,67.45,27.55,Partner,Business
+ORD-000561,2025-09-23,West,United States,Notebook Set,Office,12,18,216.00,170.64,45.36,Retail,Enterprise
+ORD-000562,2025-03-30,West,United States,Standing Desk,Office,4,450,1800.00,954.00,846.00,Online,Consumer
+ORD-000563,2026-01-10,South,Brazil,Notebook Set,Office,8,18,144.00,97.92,46.08,Partner,Business
+ORD-000564,2025-12-05,North,Canada,Standing Desk,Office,10,450,4500.00,2745.00,1755.00,Partner,Business
+ORD-000565,2025-11-14,North,Canada,Analytics Pro,Software,12,249,2988.00,1822.68,1165.32,Partner,Business
+ORD-000566,2025-07-04,South,Brazil,Notebook Set,Office,6,18,108.00,62.64,45.36,Partner,Consumer
+ORD-000567,2024-10-30,West,United States,Analytics Pro,Software,9,249,2241.00,1523.88,717.12,Partner,Business
+ORD-000568,2024-11-14,West,United States,Standing Desk,Office,8,450,3600.00,2556.00,1044.00,Retail,Business
+ORD-000569,2025-12-21,East,Japan,Desk Lamp,Office,12,45,540.00,421.20,118.80,Partner,Enterprise
+ORD-000570,2025-04-01,South,Brazil,Wireless Keyboard,Electronics,8,79,632.00,442.40,189.60,Partner,Enterprise
+ORD-000571,2025-11-18,West,United States,Notebook Set,Office,8,18,144.00,105.12,38.88,Partner,Business
+ORD-000572,2024-01-18,South,Brazil,Desk Lamp,Office,6,45,270.00,205.20,64.80,Online,Business
+ORD-000573,2025-03-15,South,Brazil,Desk Lamp,Office,2,45,90.00,59.40,30.60,Partner,Enterprise
+ORD-000574,2026-08-16,West,United States,Desk Lamp,Office,10,45,450.00,333.00,117.00,Online,Business
+ORD-000575,2026-09-23,North,Canada,Cloud Suite,Software,8,149,1192.00,786.72,405.28,Online,Consumer
+ORD-000576,2025-05-21,East,Japan,Standing Desk,Office,5,450,2250.00,1642.50,607.50,Online,Business
+ORD-000577,2026-09-26,South,Brazil,Desk Lamp,Office,11,45,495.00,292.05,202.95,Partner,Business
+ORD-000578,2025-01-30,East,Japan,Studio Monitor,Electronics,1,320,320.00,220.80,99.20,Partner,Enterprise
+ORD-000579,2024-02-13,North,Canada,Notebook Set,Office,7,18,126.00,80.64,45.36,Partner,Enterprise
+ORD-000580,2026-11-23,North,Canada,Studio Monitor,Electronics,3,320,960.00,672.00,288.00,Partner,Enterprise
+ORD-000581,2026-08-23,South,Brazil,Cloud Suite,Software,2,149,298.00,208.60,89.40,Retail,Enterprise
+ORD-000582,2025-07-20,West,United States,Standing Desk,Office,4,450,1800.00,1224.00,576.00,Partner,Business
+ORD-000583,2026-02-02,South,Brazil,Cloud Suite,Software,5,149,745.00,409.75,335.25,Partner,Business
+ORD-000584,2025-07-04,West,United States,Webcam Plus,Electronics,6,95,570.00,410.40,159.60,Retail,Consumer
+ORD-000585,2025-09-01,East,Japan,Standing Desk,Office,7,450,3150.00,2173.50,976.50,Retail,Business
+ORD-000586,2025-11-05,East,Japan,Desk Lamp,Office,4,45,180.00,129.60,50.40,Online,Business
+ORD-000587,2025-10-12,South,Brazil,Standing Desk,Office,1,450,450.00,301.50,148.50,Retail,Business
+ORD-000588,2024-03-01,North,Canada,Desk Lamp,Office,6,45,270.00,164.70,105.30,Partner,Enterprise
+ORD-000589,2026-07-09,South,Brazil,Standing Desk,Office,4,450,1800.00,1062.00,738.00,Online,Consumer
+ORD-000590,2025-01-09,East,Japan,Webcam Plus,Electronics,2,95,190.00,148.20,41.80,Partner,Enterprise
+ORD-000591,2025-12-19,West,United States,Cloud Suite,Software,11,149,1639.00,1065.35,573.65,Online,Enterprise
+ORD-000592,2024-09-30,South,Brazil,Studio Monitor,Electronics,2,320,640.00,409.60,230.40,Partner,Business
+ORD-000593,2025-01-14,East,Japan,Notebook Set,Office,12,18,216.00,168.48,47.52,Retail,Business
+ORD-000594,2025-02-16,South,Brazil,Cloud Suite,Software,12,149,1788.00,929.76,858.24,Retail,Consumer
+ORD-000595,2024-02-07,North,Canada,Analytics Pro,Software,11,249,2739.00,1780.35,958.65,Online,Enterprise
+ORD-000596,2025-02-12,West,United States,Notebook Set,Office,1,18,18.00,11.16,6.84,Retail,Enterprise
+ORD-000597,2025-06-02,West,United States,Standing Desk,Office,8,450,3600.00,2052.00,1548.00,Online,Enterprise
+ORD-000598,2025-07-13,East,Japan,Webcam Plus,Electronics,2,95,190.00,110.20,79.80,Retail,Business
+ORD-000599,2024-05-19,West,United States,Desk Lamp,Office,3,45,135.00,83.70,51.30,Retail,Business
+ORD-000600,2024-06-08,West,United States,Wireless Keyboard,Electronics,9,79,711.00,433.71,277.29,Online,Business
+ORD-000601,2026-05-12,South,Brazil,Analytics Pro,Software,3,249,747.00,552.78,194.22,Online,Business
+ORD-000602,2024-10-27,West,United States,Analytics Pro,Software,1,249,249.00,179.28,69.72,Partner,Business
+ORD-000603,2024-01-23,South,Brazil,Wireless Keyboard,Electronics,6,79,474.00,293.88,180.12,Online,Enterprise
+ORD-000604,2026-07-03,West,United States,Studio Monitor,Electronics,4,320,1280.00,704.00,576.00,Retail,Business
+ORD-000605,2024-10-10,West,United States,Standing Desk,Office,7,450,3150.00,1764.00,1386.00,Partner,Enterprise
+ORD-000606,2024-12-17,South,Brazil,Desk Lamp,Office,12,45,540.00,351.00,189.00,Retail,Business
+ORD-000607,2024-02-06,East,Japan,Analytics Pro,Software,6,249,1494.00,1165.32,328.68,Retail,Business
+ORD-000608,2025-09-29,East,Japan,Analytics Pro,Software,9,249,2241.00,1635.93,605.07,Online,Consumer
+ORD-000609,2024-06-20,South,Brazil,Webcam Plus,Electronics,9,95,855.00,607.05,247.95,Online,Enterprise
+ORD-000610,2024-02-17,West,United States,Cloud Suite,Software,11,149,1639.00,1212.86,426.14,Retail,Enterprise
+ORD-000611,2024-11-08,South,Brazil,Wireless Keyboard,Electronics,12,79,948.00,530.88,417.12,Retail,Consumer
+ORD-000612,2024-03-06,East,Japan,Analytics Pro,Software,5,249,1245.00,659.85,585.15,Retail,Business
+ORD-000613,2025-11-30,North,Canada,Webcam Plus,Electronics,12,95,1140.00,627.00,513.00,Online,Enterprise
+ORD-000614,2024-06-24,East,Japan,Standing Desk,Office,6,450,2700.00,1458.00,1242.00,Partner,Enterprise
+ORD-000615,2025-05-03,East,Japan,Notebook Set,Office,10,18,180.00,104.40,75.60,Online,Business
+ORD-000616,2026-05-24,North,Canada,Wireless Keyboard,Electronics,7,79,553.00,282.03,270.97,Retail,Business
+ORD-000617,2025-01-05,South,Brazil,Webcam Plus,Electronics,4,95,380.00,205.20,174.80,Retail,Consumer
+ORD-000618,2024-10-07,West,United States,Wireless Keyboard,Electronics,9,79,711.00,483.48,227.52,Retail,Enterprise
+ORD-000619,2024-05-03,North,Canada,Webcam Plus,Electronics,7,95,665.00,359.10,305.90,Partner,Business
+ORD-000620,2026-06-04,South,Brazil,Studio Monitor,Electronics,1,320,320.00,201.60,118.40,Partner,Business
+ORD-000621,2025-07-05,West,United States,Desk Lamp,Office,9,45,405.00,214.65,190.35,Online,Business
+ORD-000622,2025-07-18,West,United States,Analytics Pro,Software,2,249,498.00,263.94,234.06,Partner,Enterprise
+ORD-000623,2025-05-22,West,United States,Cloud Suite,Software,4,149,596.00,363.56,232.44,Online,Consumer
+ORD-000624,2025-01-21,West,United States,Desk Lamp,Office,9,45,405.00,275.40,129.60,Online,Consumer
+ORD-000625,2025-05-24,West,United States,Desk Lamp,Office,4,45,180.00,93.60,86.40,Partner,Enterprise
+ORD-000626,2024-05-07,North,Canada,Standing Desk,Office,11,450,4950.00,2920.50,2029.50,Partner,Enterprise
+ORD-000627,2024-05-15,West,United States,Wireless Keyboard,Electronics,2,79,158.00,107.44,50.56,Partner,Business
+ORD-000628,2026-12-05,West,United States,Standing Desk,Office,2,450,900.00,666.00,234.00,Online,Enterprise
+ORD-000629,2025-07-03,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,2217.60,1302.40,Retail,Business
+ORD-000630,2024-02-25,West,United States,Studio Monitor,Electronics,4,320,1280.00,921.60,358.40,Retail,Enterprise
+ORD-000631,2025-03-25,North,Canada,Studio Monitor,Electronics,4,320,1280.00,998.40,281.60,Online,Consumer
+ORD-000632,2024-06-14,West,United States,Standing Desk,Office,3,450,1350.00,918.00,432.00,Retail,Consumer
+ORD-000633,2025-02-23,West,United States,Wireless Keyboard,Electronics,5,79,395.00,256.75,138.25,Online,Enterprise
+ORD-000634,2024-12-12,East,Japan,Cloud Suite,Software,4,149,596.00,464.88,131.12,Retail,Enterprise
+ORD-000635,2025-02-16,East,Japan,Wireless Keyboard,Electronics,7,79,553.00,293.09,259.91,Online,Enterprise
+ORD-000636,2024-06-21,East,Japan,Desk Lamp,Office,11,45,495.00,356.40,138.60,Retail,Business
+ORD-000637,2024-06-12,West,United States,Webcam Plus,Electronics,3,95,285.00,222.30,62.70,Partner,Enterprise
+ORD-000638,2026-04-01,East,Japan,Webcam Plus,Electronics,9,95,855.00,453.15,401.85,Online,Enterprise
+ORD-000639,2025-01-04,West,United States,Studio Monitor,Electronics,1,320,320.00,179.20,140.80,Partner,Enterprise
+ORD-000640,2024-02-13,South,Brazil,Desk Lamp,Office,3,45,135.00,90.45,44.55,Retail,Consumer
+ORD-000641,2026-10-03,West,United States,Analytics Pro,Software,1,249,249.00,171.81,77.19,Partner,Consumer
+ORD-000642,2026-11-17,South,Brazil,Cloud Suite,Software,12,149,1788.00,1090.68,697.32,Partner,Enterprise
+ORD-000643,2026-05-02,South,Brazil,Standing Desk,Office,8,450,3600.00,1944.00,1656.00,Online,Consumer
+ORD-000644,2026-04-22,East,Japan,Studio Monitor,Electronics,10,320,3200.00,2336.00,864.00,Partner,Business
+ORD-000645,2026-04-16,North,Canada,Webcam Plus,Electronics,1,95,95.00,57.00,38.00,Online,Business
+ORD-000646,2024-05-01,West,United States,Standing Desk,Office,1,450,450.00,301.50,148.50,Partner,Enterprise
+ORD-000647,2026-07-13,East,Japan,Cloud Suite,Software,11,149,1639.00,1294.81,344.19,Online,Consumer
+ORD-000648,2026-11-13,West,United States,Analytics Pro,Software,10,249,2490.00,1817.70,672.30,Partner,Consumer
+ORD-000649,2026-11-25,South,Brazil,Analytics Pro,Software,2,249,498.00,353.58,144.42,Online,Business
+ORD-000650,2025-08-13,North,Canada,Notebook Set,Office,9,18,162.00,87.48,74.52,Partner,Consumer
+ORD-000651,2026-06-04,East,Japan,Studio Monitor,Electronics,8,320,2560.00,1331.20,1228.80,Online,Enterprise
+ORD-000652,2026-03-11,West,United States,Standing Desk,Office,7,450,3150.00,2142.00,1008.00,Online,Business
+ORD-000653,2024-07-31,West,United States,Cloud Suite,Software,2,149,298.00,169.86,128.14,Online,Business
+ORD-000654,2025-04-01,West,United States,Cloud Suite,Software,8,149,1192.00,905.92,286.08,Online,Business
+ORD-000655,2024-08-15,North,Canada,Standing Desk,Office,11,450,4950.00,3267.00,1683.00,Retail,Enterprise
+ORD-000656,2025-12-10,South,Brazil,Wireless Keyboard,Electronics,4,79,316.00,205.40,110.60,Partner,Business
+ORD-000657,2025-02-23,East,Japan,Webcam Plus,Electronics,4,95,380.00,239.40,140.60,Retail,Enterprise
+ORD-000658,2026-12-15,North,Canada,Cloud Suite,Software,7,149,1043.00,563.22,479.78,Partner,Enterprise
+ORD-000659,2025-09-04,East,Japan,Analytics Pro,Software,10,249,2490.00,1618.50,871.50,Online,Enterprise
+ORD-000660,2026-02-27,North,Canada,Notebook Set,Office,3,18,54.00,27.00,27.00,Online,Consumer
+ORD-000661,2025-02-28,East,Japan,Notebook Set,Office,4,18,72.00,56.88,15.12,Partner,Consumer
+ORD-000662,2024-02-28,East,Japan,Analytics Pro,Software,10,249,2490.00,1394.40,1095.60,Partner,Business
+ORD-000663,2026-06-26,North,Canada,Standing Desk,Office,5,450,2250.00,1147.50,1102.50,Partner,Business
+ORD-000664,2026-11-10,South,Brazil,Notebook Set,Office,5,18,90.00,45.00,45.00,Retail,Enterprise
+ORD-000665,2026-01-31,North,Canada,Studio Monitor,Electronics,7,320,2240.00,1612.80,627.20,Retail,Enterprise
+ORD-000666,2026-04-27,North,Canada,Notebook Set,Office,4,18,72.00,51.12,20.88,Online,Business
+ORD-000667,2024-03-29,North,Canada,Cloud Suite,Software,1,149,149.00,75.99,73.01,Retail,Enterprise
+ORD-000668,2026-12-06,West,United States,Analytics Pro,Software,9,249,2241.00,1322.19,918.81,Partner,Enterprise
+ORD-000669,2026-03-22,North,Canada,Webcam Plus,Electronics,12,95,1140.00,729.60,410.40,Online,Business
+ORD-000670,2026-09-21,West,United States,Wireless Keyboard,Electronics,11,79,869.00,686.51,182.49,Retail,Consumer
+ORD-000671,2026-12-08,East,Japan,Analytics Pro,Software,11,249,2739.00,1561.23,1177.77,Retail,Business
+ORD-000672,2025-12-03,East,Japan,Notebook Set,Office,7,18,126.00,74.34,51.66,Online,Business
+ORD-000673,2025-11-15,East,Japan,Notebook Set,Office,5,18,90.00,58.50,31.50,Online,Business
+ORD-000674,2024-04-09,North,Canada,Standing Desk,Office,9,450,4050.00,2430.00,1620.00,Retail,Enterprise
+ORD-000675,2024-02-22,South,Brazil,Studio Monitor,Electronics,7,320,2240.00,1657.60,582.40,Retail,Consumer
+ORD-000676,2026-01-16,West,United States,Standing Desk,Office,7,450,3150.00,1669.50,1480.50,Partner,Enterprise
+ORD-000677,2024-11-10,West,United States,Wireless Keyboard,Electronics,2,79,158.00,102.70,55.30,Partner,Consumer
+ORD-000678,2026-06-05,South,Brazil,Webcam Plus,Electronics,9,95,855.00,555.75,299.25,Partner,Business
+ORD-000679,2026-08-26,West,United States,Webcam Plus,Electronics,2,95,190.00,96.90,93.10,Retail,Business
+ORD-000680,2026-06-14,North,Canada,Desk Lamp,Office,1,45,45.00,22.50,22.50,Online,Business
+ORD-000681,2025-04-05,East,Japan,Standing Desk,Office,1,450,450.00,265.50,184.50,Online,Enterprise
+ORD-000682,2024-03-22,South,Brazil,Cloud Suite,Software,1,149,149.00,86.42,62.58,Retail,Enterprise
+ORD-000683,2026-03-11,West,United States,Wireless Keyboard,Electronics,1,79,79.00,48.19,30.81,Online,Consumer
+ORD-000684,2026-08-29,East,Japan,Notebook Set,Office,5,18,90.00,56.70,33.30,Online,Consumer
+ORD-000685,2026-01-18,East,Japan,Webcam Plus,Electronics,2,95,190.00,123.50,66.50,Retail,Consumer
+ORD-000686,2024-02-26,South,Brazil,Cloud Suite,Software,1,149,149.00,90.89,58.11,Partner,Enterprise
+ORD-000687,2024-04-07,South,Brazil,Webcam Plus,Electronics,11,95,1045.00,721.05,323.95,Online,Enterprise
+ORD-000688,2026-08-29,West,United States,Desk Lamp,Office,3,45,135.00,89.10,45.90,Online,Consumer
+ORD-000689,2024-01-04,South,Brazil,Analytics Pro,Software,9,249,2241.00,1299.78,941.22,Online,Enterprise
+ORD-000690,2024-04-17,North,Canada,Notebook Set,Office,10,18,180.00,124.20,55.80,Retail,Enterprise
+ORD-000691,2024-11-06,North,Canada,Desk Lamp,Office,5,45,225.00,132.75,92.25,Online,Consumer
+ORD-000692,2024-01-17,East,Japan,Cloud Suite,Software,8,149,1192.00,929.76,262.24,Retail,Consumer
+ORD-000693,2024-01-15,North,Canada,Desk Lamp,Office,11,45,495.00,376.20,118.80,Online,Consumer
+ORD-000694,2026-11-23,East,Japan,Wireless Keyboard,Electronics,7,79,553.00,414.75,138.25,Online,Enterprise
+ORD-000695,2024-06-27,East,Japan,Webcam Plus,Electronics,7,95,665.00,518.70,146.30,Partner,Enterprise
+ORD-000696,2024-04-06,North,Canada,Cloud Suite,Software,8,149,1192.00,810.56,381.44,Retail,Consumer
+ORD-000697,2026-10-14,West,United States,Notebook Set,Office,2,18,36.00,19.08,16.92,Online,Enterprise
+ORD-000698,2024-05-31,East,Japan,Wireless Keyboard,Electronics,12,79,948.00,720.48,227.52,Retail,Business
+ORD-000699,2025-01-14,West,United States,Cloud Suite,Software,8,149,1192.00,762.88,429.12,Online,Consumer
+ORD-000700,2026-10-11,South,Brazil,Studio Monitor,Electronics,5,320,1600.00,1152.00,448.00,Retail,Consumer
+ORD-000701,2025-03-15,East,Japan,Analytics Pro,Software,7,249,1743.00,888.93,854.07,Partner,Consumer
+ORD-000702,2025-09-01,East,Japan,Wireless Keyboard,Electronics,8,79,632.00,429.76,202.24,Online,Consumer
+ORD-000703,2026-02-04,South,Brazil,Webcam Plus,Electronics,5,95,475.00,346.75,128.25,Online,Business
+ORD-000704,2025-10-02,South,Brazil,Desk Lamp,Office,1,45,45.00,24.30,20.70,Partner,Enterprise
+ORD-000705,2024-06-18,North,Canada,Studio Monitor,Electronics,1,320,320.00,252.80,67.20,Partner,Consumer
+ORD-000706,2024-07-24,West,United States,Webcam Plus,Electronics,10,95,950.00,617.50,332.50,Retail,Business
+ORD-000707,2026-11-09,West,United States,Notebook Set,Office,4,18,72.00,46.08,25.92,Online,Enterprise
+ORD-000708,2025-08-02,West,United States,Webcam Plus,Electronics,3,95,285.00,162.45,122.55,Retail,Business
+ORD-000709,2025-04-30,West,United States,Notebook Set,Office,11,18,198.00,154.44,43.56,Retail,Consumer
+ORD-000710,2024-08-14,East,Japan,Desk Lamp,Office,12,45,540.00,291.60,248.40,Retail,Enterprise
+ORD-000711,2025-11-26,West,United States,Cloud Suite,Software,12,149,1788.00,1251.60,536.40,Retail,Enterprise
+ORD-000712,2024-05-04,South,Brazil,Desk Lamp,Office,10,45,450.00,261.00,189.00,Partner,Enterprise
+ORD-000713,2025-11-20,East,Japan,Webcam Plus,Electronics,12,95,1140.00,752.40,387.60,Retail,Business
+ORD-000714,2026-03-22,South,Brazil,Wireless Keyboard,Electronics,12,79,948.00,511.92,436.08,Partner,Business
+ORD-000715,2026-04-08,North,Canada,Notebook Set,Office,1,18,18.00,9.36,8.64,Online,Consumer
+ORD-000716,2026-12-07,South,Brazil,Analytics Pro,Software,11,249,2739.00,1889.91,849.09,Online,Consumer
+ORD-000717,2025-04-28,West,United States,Notebook Set,Office,10,18,180.00,95.40,84.60,Partner,Consumer
+ORD-000718,2025-04-27,North,Canada,Wireless Keyboard,Electronics,10,79,790.00,616.20,173.80,Online,Business
+ORD-000719,2026-08-25,West,United States,Studio Monitor,Electronics,12,320,3840.00,2035.20,1804.80,Partner,Consumer
+ORD-000720,2024-08-19,East,Japan,Wireless Keyboard,Electronics,6,79,474.00,241.74,232.26,Retail,Enterprise
+ORD-000721,2026-01-18,West,United States,Cloud Suite,Software,7,149,1043.00,552.79,490.21,Online,Business
+ORD-000722,2025-01-05,West,United States,Webcam Plus,Electronics,8,95,760.00,547.20,212.80,Online,Enterprise
+ORD-000723,2025-09-16,West,United States,Studio Monitor,Electronics,8,320,2560.00,1945.60,614.40,Partner,Enterprise
+ORD-000724,2025-03-29,South,Brazil,Cloud Suite,Software,7,149,1043.00,636.23,406.77,Online,Consumer
+ORD-000725,2025-05-24,West,United States,Cloud Suite,Software,6,149,894.00,491.70,402.30,Partner,Consumer
+ORD-000726,2026-03-30,South,Brazil,Analytics Pro,Software,1,249,249.00,149.40,99.60,Online,Enterprise
+ORD-000727,2024-10-27,North,Canada,Cloud Suite,Software,2,149,298.00,169.86,128.14,Retail,Business
+ORD-000728,2026-12-14,West,United States,Standing Desk,Office,9,450,4050.00,3118.50,931.50,Partner,Enterprise
+ORD-000729,2024-09-21,South,Brazil,Wireless Keyboard,Electronics,11,79,869.00,651.75,217.25,Partner,Consumer
+ORD-000730,2024-07-08,East,Japan,Studio Monitor,Electronics,8,320,2560.00,1638.40,921.60,Retail,Business
+ORD-000731,2024-08-22,North,Canada,Webcam Plus,Electronics,10,95,950.00,703.00,247.00,Partner,Enterprise
+ORD-000732,2024-10-30,South,Brazil,Cloud Suite,Software,7,149,1043.00,563.22,479.78,Partner,Enterprise
+ORD-000733,2024-08-14,East,Japan,Cloud Suite,Software,2,149,298.00,184.76,113.24,Partner,Business
+ORD-000734,2025-06-04,South,Brazil,Standing Desk,Office,7,450,3150.00,2110.50,1039.50,Partner,Enterprise
+ORD-000735,2026-06-10,East,Japan,Webcam Plus,Electronics,11,95,1045.00,679.25,365.75,Online,Consumer
+ORD-000736,2025-05-14,East,Japan,Standing Desk,Office,1,450,450.00,229.50,220.50,Partner,Business
+ORD-000737,2026-07-13,South,Brazil,Desk Lamp,Office,4,45,180.00,140.40,39.60,Online,Enterprise
+ORD-000738,2026-04-17,West,United States,Desk Lamp,Office,11,45,495.00,311.85,183.15,Online,Enterprise
+ORD-000739,2026-01-11,West,United States,Cloud Suite,Software,6,149,894.00,455.94,438.06,Retail,Consumer
+ORD-000740,2024-07-18,East,Japan,Webcam Plus,Electronics,10,95,950.00,475.00,475.00,Partner,Consumer
+ORD-000741,2026-01-02,West,United States,Desk Lamp,Office,11,45,495.00,391.05,103.95,Retail,Business
+ORD-000742,2026-04-28,West,United States,Desk Lamp,Office,1,45,45.00,25.65,19.35,Online,Consumer
+ORD-000743,2024-09-28,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,2217.60,1302.40,Retail,Enterprise
+ORD-000744,2025-05-30,West,United States,Desk Lamp,Office,7,45,315.00,204.75,110.25,Retail,Consumer
+ORD-000745,2025-06-08,East,Japan,Wireless Keyboard,Electronics,7,79,553.00,414.75,138.25,Partner,Consumer
+ORD-000746,2026-01-17,East,Japan,Standing Desk,Office,6,450,2700.00,1539.00,1161.00,Retail,Consumer
+ORD-000747,2025-10-08,East,Japan,Analytics Pro,Software,11,249,2739.00,1698.18,1040.82,Partner,Business
+ORD-000748,2025-01-17,North,Canada,Cloud Suite,Software,5,149,745.00,417.20,327.80,Partner,Business
+ORD-000749,2025-12-07,West,United States,Desk Lamp,Office,10,45,450.00,333.00,117.00,Retail,Business
+ORD-000750,2025-11-08,North,Canada,Desk Lamp,Office,2,45,90.00,68.40,21.60,Online,Business
+ORD-000751,2026-11-04,East,Japan,Standing Desk,Office,2,450,900.00,522.00,378.00,Online,Enterprise
+ORD-000752,2024-06-20,North,Canada,Analytics Pro,Software,12,249,2988.00,1703.16,1284.84,Retail,Enterprise
+ORD-000753,2024-09-11,South,Brazil,Studio Monitor,Electronics,2,320,640.00,467.20,172.80,Retail,Business
+ORD-000754,2025-01-20,South,Brazil,Wireless Keyboard,Electronics,1,79,79.00,45.82,33.18,Partner,Business
+ORD-000755,2024-01-20,South,Brazil,Studio Monitor,Electronics,7,320,2240.00,1500.80,739.20,Partner,Business
+ORD-000756,2025-10-25,South,Brazil,Cloud Suite,Software,6,149,894.00,643.68,250.32,Online,Enterprise
+ORD-000757,2024-02-02,East,Japan,Wireless Keyboard,Electronics,4,79,316.00,161.16,154.84,Partner,Enterprise
+ORD-000758,2026-08-20,North,Canada,Wireless Keyboard,Electronics,1,79,79.00,39.50,39.50,Partner,Consumer
+ORD-000759,2024-04-20,South,Brazil,Notebook Set,Office,2,18,36.00,28.44,7.56,Partner,Enterprise
+ORD-000760,2026-11-18,East,Japan,Analytics Pro,Software,8,249,1992.00,1494.00,498.00,Partner,Enterprise
+ORD-000761,2026-03-25,West,United States,Wireless Keyboard,Electronics,1,79,79.00,41.08,37.92,Online,Business
+ORD-000762,2026-09-18,East,Japan,Webcam Plus,Electronics,5,95,475.00,370.50,104.50,Retail,Enterprise
+ORD-000763,2025-08-30,South,Brazil,Wireless Keyboard,Electronics,10,79,790.00,529.30,260.70,Retail,Consumer
+ORD-000764,2026-11-01,West,United States,Standing Desk,Office,10,450,4500.00,3285.00,1215.00,Retail,Business
+ORD-000765,2026-10-19,North,Canada,Webcam Plus,Electronics,5,95,475.00,346.75,128.25,Online,Enterprise
+ORD-000766,2025-05-15,North,Canada,Desk Lamp,Office,8,45,360.00,234.00,126.00,Retail,Consumer
+ORD-000767,2024-08-26,East,Japan,Webcam Plus,Electronics,10,95,950.00,750.50,199.50,Online,Business
+ORD-000768,2024-09-15,North,Canada,Studio Monitor,Electronics,6,320,1920.00,960.00,960.00,Partner,Consumer
+ORD-000769,2025-06-05,North,Canada,Wireless Keyboard,Electronics,12,79,948.00,644.64,303.36,Retail,Enterprise
+ORD-000770,2024-04-18,East,Japan,Cloud Suite,Software,12,149,1788.00,1215.84,572.16,Retail,Enterprise
+ORD-000771,2026-03-17,South,Brazil,Wireless Keyboard,Electronics,10,79,790.00,624.10,165.90,Online,Business
+ORD-000772,2025-12-14,North,Canada,Standing Desk,Office,10,450,4500.00,3510.00,990.00,Online,Consumer
+ORD-000773,2025-10-22,West,United States,Notebook Set,Office,2,18,36.00,27.72,8.28,Partner,Business
+ORD-000774,2025-06-28,West,United States,Standing Desk,Office,4,450,1800.00,972.00,828.00,Retail,Business
+ORD-000775,2026-11-05,West,United States,Cloud Suite,Software,3,149,447.00,259.26,187.74,Retail,Business
+ORD-000776,2025-03-12,South,Brazil,Notebook Set,Office,2,18,36.00,19.44,16.56,Online,Enterprise
+ORD-000777,2026-06-02,North,Canada,Analytics Pro,Software,4,249,996.00,627.48,368.52,Online,Business
+ORD-000778,2024-12-02,West,United States,Wireless Keyboard,Electronics,2,79,158.00,97.96,60.04,Online,Business
+ORD-000779,2026-04-20,West,United States,Webcam Plus,Electronics,3,95,285.00,208.05,76.95,Retail,Enterprise
+ORD-000780,2026-12-13,South,Brazil,Analytics Pro,Software,4,249,996.00,567.72,428.28,Retail,Consumer
+ORD-000781,2024-07-05,South,Brazil,Wireless Keyboard,Electronics,7,79,553.00,420.28,132.72,Online,Business
+ORD-000782,2025-11-30,North,Canada,Desk Lamp,Office,5,45,225.00,153.00,72.00,Online,Business
+ORD-000783,2024-08-24,West,United States,Cloud Suite,Software,12,149,1788.00,1108.56,679.44,Online,Consumer
+ORD-000784,2025-12-06,South,Brazil,Webcam Plus,Electronics,3,95,285.00,173.85,111.15,Online,Consumer
+ORD-000785,2026-09-29,North,Canada,Cloud Suite,Software,1,149,149.00,89.40,59.60,Partner,Consumer
+ORD-000786,2025-08-28,South,Brazil,Standing Desk,Office,3,450,1350.00,999.00,351.00,Retail,Business
+ORD-000787,2025-08-31,East,Japan,Desk Lamp,Office,2,45,90.00,59.40,30.60,Retail,Enterprise
+ORD-000788,2025-04-07,West,United States,Desk Lamp,Office,5,45,225.00,126.00,99.00,Retail,Consumer
+ORD-000789,2024-08-08,East,Japan,Cloud Suite,Software,4,149,596.00,381.44,214.56,Retail,Business
+ORD-000790,2025-01-17,East,Japan,Analytics Pro,Software,12,249,2988.00,2151.36,836.64,Online,Business
+ORD-000791,2025-12-22,West,United States,Standing Desk,Office,9,450,4050.00,2673.00,1377.00,Online,Consumer
+ORD-000792,2024-09-02,South,Brazil,Standing Desk,Office,6,450,2700.00,1971.00,729.00,Retail,Consumer
+ORD-000793,2025-07-01,North,Canada,Desk Lamp,Office,10,45,450.00,301.50,148.50,Partner,Business
+ORD-000794,2025-11-13,East,Japan,Webcam Plus,Electronics,12,95,1140.00,570.00,570.00,Partner,Business
+ORD-000795,2024-03-11,North,Canada,Webcam Plus,Electronics,7,95,665.00,418.95,246.05,Partner,Enterprise
+ORD-000796,2025-06-14,South,Brazil,Desk Lamp,Office,10,45,450.00,252.00,198.00,Retail,Enterprise
+ORD-000797,2024-03-06,North,Canada,Webcam Plus,Electronics,8,95,760.00,380.00,380.00,Retail,Business
+ORD-000798,2024-12-08,West,United States,Notebook Set,Office,3,18,54.00,28.08,25.92,Retail,Business
+ORD-000799,2025-02-24,South,Brazil,Standing Desk,Office,3,450,1350.00,904.50,445.50,Online,Enterprise
+ORD-000800,2024-11-15,East,Japan,Webcam Plus,Electronics,12,95,1140.00,570.00,570.00,Partner,Consumer
+ORD-000801,2024-11-17,South,Brazil,Notebook Set,Office,1,18,18.00,11.34,6.66,Online,Business
+ORD-000802,2024-09-20,North,Canada,Desk Lamp,Office,12,45,540.00,313.20,226.80,Online,Enterprise
+ORD-000803,2026-11-30,West,United States,Standing Desk,Office,4,450,1800.00,1134.00,666.00,Online,Enterprise
+ORD-000804,2024-04-08,South,Brazil,Analytics Pro,Software,5,249,1245.00,709.65,535.35,Online,Consumer
+ORD-000805,2024-04-08,South,Brazil,Wireless Keyboard,Electronics,6,79,474.00,255.96,218.04,Online,Enterprise
+ORD-000806,2026-08-17,North,Canada,Analytics Pro,Software,12,249,2988.00,2151.36,836.64,Online,Consumer
+ORD-000807,2024-02-15,West,United States,Studio Monitor,Electronics,4,320,1280.00,844.80,435.20,Retail,Business
+ORD-000808,2024-11-28,West,United States,Desk Lamp,Office,9,45,405.00,206.55,198.45,Retail,Business
+ORD-000809,2025-03-15,South,Brazil,Notebook Set,Office,6,18,108.00,61.56,46.44,Partner,Enterprise
+ORD-000810,2024-11-14,West,United States,Webcam Plus,Electronics,5,95,475.00,351.50,123.50,Partner,Business
+ORD-000811,2025-12-10,South,Brazil,Notebook Set,Office,8,18,144.00,99.36,44.64,Retail,Enterprise
+ORD-000812,2025-07-08,North,Canada,Webcam Plus,Electronics,12,95,1140.00,615.60,524.40,Online,Consumer
+ORD-000813,2025-10-20,North,Canada,Webcam Plus,Electronics,9,95,855.00,444.60,410.40,Partner,Consumer
+ORD-000814,2025-09-13,South,Brazil,Notebook Set,Office,5,18,90.00,62.10,27.90,Retail,Enterprise
+ORD-000815,2024-08-06,North,Canada,Desk Lamp,Office,7,45,315.00,214.20,100.80,Retail,Consumer
+ORD-000816,2026-12-19,North,Canada,Standing Desk,Office,9,450,4050.00,2794.50,1255.50,Partner,Enterprise
+ORD-000817,2025-05-03,West,United States,Analytics Pro,Software,4,249,996.00,537.84,458.16,Online,Enterprise
+ORD-000818,2024-05-09,North,Canada,Cloud Suite,Software,9,149,1341.00,978.93,362.07,Online,Enterprise
+ORD-000819,2025-04-25,North,Canada,Notebook Set,Office,12,18,216.00,140.40,75.60,Retail,Consumer
+ORD-000820,2026-07-06,North,Canada,Analytics Pro,Software,12,249,2988.00,1972.08,1015.92,Retail,Business
+ORD-000821,2026-01-06,West,United States,Notebook Set,Office,10,18,180.00,122.40,57.60,Online,Business
+ORD-000822,2026-01-04,East,Japan,Analytics Pro,Software,2,249,498.00,249.00,249.00,Retail,Business
+ORD-000823,2024-02-13,North,Canada,Cloud Suite,Software,1,149,149.00,105.79,43.21,Online,Consumer
+ORD-000824,2026-08-17,North,Canada,Desk Lamp,Office,11,45,495.00,336.60,158.40,Online,Consumer
+ORD-000825,2025-07-29,East,Japan,Studio Monitor,Electronics,3,320,960.00,748.80,211.20,Partner,Enterprise
+ORD-000826,2026-08-30,West,United States,Cloud Suite,Software,7,149,1043.00,761.39,281.61,Retail,Consumer
+ORD-000827,2024-10-22,East,Japan,Analytics Pro,Software,7,249,1743.00,993.51,749.49,Retail,Enterprise
+ORD-000828,2024-04-07,West,United States,Webcam Plus,Electronics,1,95,95.00,49.40,45.60,Retail,Business
+ORD-000829,2026-04-25,West,United States,Analytics Pro,Software,10,249,2490.00,1494.00,996.00,Online,Consumer
+ORD-000830,2026-08-06,East,Japan,Desk Lamp,Office,3,45,135.00,72.90,62.10,Online,Enterprise
+ORD-000831,2025-02-02,East,Japan,Wireless Keyboard,Electronics,8,79,632.00,442.40,189.60,Partner,Business
+ORD-000832,2025-02-24,South,Brazil,Wireless Keyboard,Electronics,4,79,316.00,246.48,69.52,Retail,Consumer
+ORD-000833,2026-12-17,East,Japan,Cloud Suite,Software,12,149,1788.00,965.52,822.48,Partner,Enterprise
+ORD-000834,2026-12-30,North,Canada,Webcam Plus,Electronics,3,95,285.00,188.10,96.90,Partner,Consumer
+ORD-000835,2025-08-30,North,Canada,Desk Lamp,Office,2,45,90.00,52.20,37.80,Partner,Business
+ORD-000836,2026-05-16,South,Brazil,Wireless Keyboard,Electronics,1,79,79.00,61.62,17.38,Retail,Consumer
+ORD-000837,2024-07-11,West,United States,Webcam Plus,Electronics,10,95,950.00,475.00,475.00,Online,Business
+ORD-000838,2026-10-12,East,Japan,Desk Lamp,Office,12,45,540.00,361.80,178.20,Partner,Consumer
+ORD-000839,2026-09-25,West,United States,Analytics Pro,Software,5,249,1245.00,983.55,261.45,Online,Business
+ORD-000840,2025-06-10,West,United States,Notebook Set,Office,9,18,162.00,105.30,56.70,Retail,Enterprise
+ORD-000841,2024-01-09,West,United States,Wireless Keyboard,Electronics,5,79,395.00,201.45,193.55,Retail,Business
+ORD-000842,2025-09-19,North,Canada,Analytics Pro,Software,11,249,2739.00,2136.42,602.58,Retail,Consumer
+ORD-000843,2025-04-07,South,Brazil,Studio Monitor,Electronics,4,320,1280.00,896.00,384.00,Online,Enterprise
+ORD-000844,2024-07-20,North,Canada,Analytics Pro,Software,11,249,2739.00,1698.18,1040.82,Online,Enterprise
+ORD-000845,2024-08-29,South,Brazil,Analytics Pro,Software,12,249,2988.00,2181.24,806.76,Partner,Business
+ORD-000846,2025-06-17,West,United States,Desk Lamp,Office,5,45,225.00,150.75,74.25,Online,Enterprise
+ORD-000847,2026-12-20,North,Canada,Webcam Plus,Electronics,3,95,285.00,222.30,62.70,Partner,Consumer
+ORD-000848,2026-09-09,South,Brazil,Cloud Suite,Software,8,149,1192.00,631.76,560.24,Online,Business
+ORD-000849,2026-12-26,North,Canada,Studio Monitor,Electronics,3,320,960.00,710.40,249.60,Retail,Enterprise
+ORD-000850,2026-12-24,West,United States,Wireless Keyboard,Electronics,10,79,790.00,505.60,284.40,Partner,Business
+ORD-000851,2024-10-03,North,Canada,Studio Monitor,Electronics,6,320,1920.00,1440.00,480.00,Partner,Enterprise
+ORD-000852,2026-11-21,North,Canada,Desk Lamp,Office,4,45,180.00,108.00,72.00,Retail,Consumer
+ORD-000853,2025-01-09,West,United States,Standing Desk,Office,12,450,5400.00,3618.00,1782.00,Online,Consumer
+ORD-000854,2026-08-06,East,Japan,Wireless Keyboard,Electronics,10,79,790.00,584.60,205.40,Partner,Consumer
+ORD-000855,2025-04-03,South,Brazil,Cloud Suite,Software,12,149,1788.00,1251.60,536.40,Retail,Business
+ORD-000856,2026-09-18,East,Japan,Analytics Pro,Software,8,249,1992.00,1374.48,617.52,Partner,Consumer
+ORD-000857,2026-05-18,East,Japan,Standing Desk,Office,12,450,5400.00,3564.00,1836.00,Online,Enterprise
+ORD-000858,2025-07-23,North,Canada,Wireless Keyboard,Electronics,3,79,237.00,163.53,73.47,Retail,Business
+ORD-000859,2025-07-28,West,United States,Standing Desk,Office,3,450,1350.00,1053.00,297.00,Partner,Consumer
+ORD-000860,2025-10-15,West,United States,Wireless Keyboard,Electronics,5,79,395.00,237.00,158.00,Partner,Consumer
+ORD-000861,2026-11-09,South,Brazil,Standing Desk,Office,5,450,2250.00,1552.50,697.50,Retail,Business
+ORD-000862,2026-11-15,South,Brazil,Wireless Keyboard,Electronics,8,79,632.00,404.48,227.52,Partner,Business
+ORD-000863,2026-05-12,North,Canada,Desk Lamp,Office,1,45,45.00,28.80,16.20,Partner,Business
+ORD-000864,2025-12-26,South,Brazil,Standing Desk,Office,6,450,2700.00,1863.00,837.00,Partner,Consumer
+ORD-000865,2026-02-09,West,United States,Wireless Keyboard,Electronics,6,79,474.00,336.54,137.46,Partner,Consumer
+ORD-000866,2026-11-07,West,United States,Standing Desk,Office,11,450,4950.00,2920.50,2029.50,Partner,Enterprise
+ORD-000867,2026-12-13,West,United States,Notebook Set,Office,11,18,198.00,150.48,47.52,Partner,Enterprise
+ORD-000868,2024-07-24,South,Brazil,Standing Desk,Office,12,450,5400.00,3618.00,1782.00,Retail,Business
+ORD-000869,2024-04-30,South,Brazil,Standing Desk,Office,4,450,1800.00,1386.00,414.00,Online,Enterprise
+ORD-000870,2024-07-18,North,Canada,Webcam Plus,Electronics,5,95,475.00,332.50,142.50,Online,Enterprise
+ORD-000871,2024-01-20,West,United States,Analytics Pro,Software,10,249,2490.00,1743.00,747.00,Retail,Business
+ORD-000872,2024-05-04,East,Japan,Cloud Suite,Software,9,149,1341.00,831.42,509.58,Partner,Consumer
+ORD-000873,2024-12-18,West,United States,Studio Monitor,Electronics,11,320,3520.00,2041.60,1478.40,Online,Consumer
+ORD-000874,2025-01-28,West,United States,Notebook Set,Office,5,18,90.00,62.10,27.90,Retail,Consumer
+ORD-000875,2024-04-29,North,Canada,Wireless Keyboard,Electronics,2,79,158.00,107.44,50.56,Partner,Business
+ORD-000876,2026-10-06,East,Japan,Standing Desk,Office,4,450,1800.00,1332.00,468.00,Online,Enterprise
+ORD-000877,2024-01-18,East,Japan,Standing Desk,Office,2,450,900.00,657.00,243.00,Partner,Enterprise
+ORD-000878,2025-06-28,North,Canada,Desk Lamp,Office,11,45,495.00,247.50,247.50,Online,Business
+ORD-000879,2024-10-04,South,Brazil,Notebook Set,Office,12,18,216.00,125.28,90.72,Online,Consumer
+ORD-000880,2025-05-21,South,Brazil,Standing Desk,Office,9,450,4050.00,3118.50,931.50,Online,Business
+ORD-000881,2024-07-21,West,United States,Wireless Keyboard,Electronics,6,79,474.00,255.96,218.04,Retail,Enterprise
+ORD-000882,2026-08-31,South,Brazil,Wireless Keyboard,Electronics,3,79,237.00,182.49,54.51,Partner,Enterprise
+ORD-000883,2026-09-22,North,Canada,Standing Desk,Office,5,450,2250.00,1462.50,787.50,Partner,Business
+ORD-000884,2024-02-29,South,Brazil,Studio Monitor,Electronics,1,320,320.00,240.00,80.00,Retail,Enterprise
+ORD-000885,2024-12-05,West,United States,Studio Monitor,Electronics,4,320,1280.00,832.00,448.00,Online,Consumer
+ORD-000886,2025-06-04,West,United States,Desk Lamp,Office,1,45,45.00,32.85,12.15,Online,Business
+ORD-000887,2024-02-18,West,United States,Analytics Pro,Software,7,249,1743.00,871.50,871.50,Partner,Consumer
+ORD-000888,2024-07-29,North,Canada,Notebook Set,Office,8,18,144.00,96.48,47.52,Online,Enterprise
+ORD-000889,2024-09-01,North,Canada,Standing Desk,Office,11,450,4950.00,3217.50,1732.50,Partner,Business
+ORD-000890,2025-10-29,South,Brazil,Wireless Keyboard,Electronics,7,79,553.00,331.80,221.20,Online,Consumer
+ORD-000891,2024-01-12,West,United States,Wireless Keyboard,Electronics,6,79,474.00,331.80,142.20,Partner,Enterprise
+ORD-000892,2025-06-11,East,Japan,Wireless Keyboard,Electronics,5,79,395.00,205.40,189.60,Retail,Enterprise
+ORD-000893,2024-07-29,South,Brazil,Studio Monitor,Electronics,6,320,1920.00,1056.00,864.00,Retail,Consumer
+ORD-000894,2025-05-03,East,Japan,Notebook Set,Office,1,18,18.00,9.54,8.46,Retail,Enterprise
+ORD-000895,2026-07-31,East,Japan,Notebook Set,Office,9,18,162.00,84.24,77.76,Retail,Business
+ORD-000896,2026-01-01,North,Canada,Desk Lamp,Office,8,45,360.00,277.20,82.80,Online,Business
+ORD-000897,2024-02-14,North,Canada,Desk Lamp,Office,7,45,315.00,195.30,119.70,Online,Consumer
+ORD-000898,2025-04-25,West,United States,Cloud Suite,Software,6,149,894.00,536.40,357.60,Retail,Consumer
+ORD-000899,2024-04-01,South,Brazil,Webcam Plus,Electronics,12,95,1140.00,672.60,467.40,Partner,Business
+ORD-000900,2026-07-24,East,Japan,Analytics Pro,Software,9,249,2241.00,1501.47,739.53,Retail,Enterprise
+ORD-000901,2025-01-13,South,Brazil,Notebook Set,Office,2,18,36.00,20.16,15.84,Online,Consumer
+ORD-000902,2026-01-26,South,Brazil,Notebook Set,Office,11,18,198.00,140.58,57.42,Retail,Business
+ORD-000903,2026-09-15,East,Japan,Notebook Set,Office,8,18,144.00,79.20,64.80,Retail,Business
+ORD-000904,2024-11-02,West,United States,Studio Monitor,Electronics,8,320,2560.00,1945.60,614.40,Retail,Consumer
+ORD-000905,2026-12-25,East,Japan,Standing Desk,Office,11,450,4950.00,2821.50,2128.50,Partner,Consumer
+ORD-000906,2024-05-12,South,Brazil,Analytics Pro,Software,11,249,2739.00,1396.89,1342.11,Partner,Enterprise
+ORD-000907,2025-08-29,East,Japan,Studio Monitor,Electronics,8,320,2560.00,1612.80,947.20,Retail,Business
+ORD-000908,2024-10-17,North,Canada,Analytics Pro,Software,10,249,2490.00,1494.00,996.00,Online,Enterprise
+ORD-000909,2026-01-14,South,Brazil,Analytics Pro,Software,11,249,2739.00,1670.79,1068.21,Partner,Consumer
+ORD-000910,2026-02-17,South,Brazil,Studio Monitor,Electronics,1,320,320.00,230.40,89.60,Online,Consumer
+ORD-000911,2024-09-18,South,Brazil,Wireless Keyboard,Electronics,2,79,158.00,97.96,60.04,Retail,Business
+ORD-000912,2024-07-07,East,Japan,Webcam Plus,Electronics,9,95,855.00,436.05,418.95,Retail,Enterprise
+ORD-000913,2024-04-08,South,Brazil,Studio Monitor,Electronics,12,320,3840.00,2304.00,1536.00,Retail,Enterprise
+ORD-000914,2024-10-31,North,Canada,Standing Desk,Office,8,450,3600.00,1908.00,1692.00,Online,Consumer
+ORD-000915,2025-12-10,East,Japan,Cloud Suite,Software,10,149,1490.00,819.50,670.50,Online,Enterprise
+ORD-000916,2025-07-07,North,Canada,Studio Monitor,Electronics,2,320,640.00,320.00,320.00,Online,Enterprise
+ORD-000917,2026-08-24,South,Brazil,Notebook Set,Office,1,18,18.00,12.06,5.94,Online,Consumer
+ORD-000918,2025-08-29,North,Canada,Wireless Keyboard,Electronics,1,79,79.00,41.87,37.13,Partner,Business
+ORD-000919,2024-09-27,West,United States,Studio Monitor,Electronics,8,320,2560.00,1817.60,742.40,Retail,Consumer
+ORD-000920,2025-07-12,North,Canada,Wireless Keyboard,Electronics,4,79,316.00,221.20,94.80,Retail,Enterprise
+ORD-000921,2026-01-30,South,Brazil,Studio Monitor,Electronics,5,320,1600.00,1152.00,448.00,Partner,Consumer
+ORD-000922,2025-07-13,East,Japan,Wireless Keyboard,Electronics,10,79,790.00,616.20,173.80,Retail,Enterprise
+ORD-000923,2026-03-20,West,United States,Desk Lamp,Office,1,45,45.00,31.05,13.95,Online,Enterprise
+ORD-000924,2026-08-03,East,Japan,Standing Desk,Office,10,450,4500.00,3015.00,1485.00,Online,Business
+ORD-000925,2026-05-08,West,United States,Notebook Set,Office,9,18,162.00,121.50,40.50,Partner,Enterprise
+ORD-000926,2024-08-06,North,Canada,Standing Desk,Office,6,450,2700.00,1377.00,1323.00,Online,Enterprise
+ORD-000927,2025-02-08,South,Brazil,Analytics Pro,Software,6,249,1494.00,956.16,537.84,Partner,Enterprise
+ORD-000928,2024-12-29,North,Canada,Standing Desk,Office,8,450,3600.00,2376.00,1224.00,Partner,Enterprise
+ORD-000929,2024-02-27,North,Canada,Standing Desk,Office,9,450,4050.00,2916.00,1134.00,Partner,Business
+ORD-000930,2025-09-18,East,Japan,Analytics Pro,Software,8,249,1992.00,1135.44,856.56,Retail,Business
+ORD-000931,2024-01-11,South,Brazil,Notebook Set,Office,4,18,72.00,43.20,28.80,Partner,Business
+ORD-000932,2025-07-05,West,United States,Wireless Keyboard,Electronics,6,79,474.00,369.72,104.28,Retail,Enterprise
+ORD-000933,2025-08-10,West,United States,Standing Desk,Office,5,450,2250.00,1350.00,900.00,Retail,Consumer
+ORD-000934,2024-01-15,East,Japan,Analytics Pro,Software,4,249,996.00,766.92,229.08,Partner,Enterprise
+ORD-000935,2024-07-16,East,Japan,Studio Monitor,Electronics,2,320,640.00,390.40,249.60,Partner,Business
+ORD-000936,2026-11-02,South,Brazil,Standing Desk,Office,9,450,4050.00,2794.50,1255.50,Retail,Business
+ORD-000937,2025-11-18,West,United States,Webcam Plus,Electronics,1,95,95.00,73.15,21.85,Retail,Business
+ORD-000938,2025-10-16,East,Japan,Studio Monitor,Electronics,5,320,1600.00,1072.00,528.00,Online,Enterprise
+ORD-000939,2025-04-16,West,United States,Cloud Suite,Software,3,149,447.00,250.32,196.68,Online,Consumer
+ORD-000940,2025-03-18,North,Canada,Desk Lamp,Office,10,45,450.00,243.00,207.00,Partner,Consumer
+ORD-000941,2025-10-23,West,United States,Standing Desk,Office,6,450,2700.00,1728.00,972.00,Retail,Enterprise
+ORD-000942,2024-10-10,West,United States,Desk Lamp,Office,2,45,90.00,59.40,30.60,Partner,Consumer
+ORD-000943,2026-04-22,South,Brazil,Cloud Suite,Software,7,149,1043.00,542.36,500.64,Retail,Consumer
+ORD-000944,2026-09-15,North,Canada,Cloud Suite,Software,1,149,149.00,96.85,52.15,Partner,Enterprise
+ORD-000945,2024-09-20,East,Japan,Wireless Keyboard,Electronics,1,79,79.00,58.46,20.54,Online,Consumer
+ORD-000946,2025-03-18,West,United States,Webcam Plus,Electronics,3,95,285.00,202.35,82.65,Retail,Enterprise
+ORD-000947,2024-02-12,South,Brazil,Desk Lamp,Office,10,45,450.00,247.50,202.50,Partner,Consumer
+ORD-000948,2026-07-20,North,Canada,Wireless Keyboard,Electronics,6,79,474.00,298.62,175.38,Partner,Business
+ORD-000949,2025-09-09,West,United States,Studio Monitor,Electronics,10,320,3200.00,2464.00,736.00,Retail,Enterprise
+ORD-000950,2026-01-07,East,Japan,Desk Lamp,Office,8,45,360.00,241.20,118.80,Retail,Business
+ORD-000951,2025-04-17,South,Brazil,Notebook Set,Office,2,18,36.00,18.36,17.64,Online,Enterprise
+ORD-000952,2025-07-23,West,United States,Webcam Plus,Electronics,3,95,285.00,190.95,94.05,Online,Business
+ORD-000953,2024-02-07,North,Canada,Notebook Set,Office,9,18,162.00,121.50,40.50,Partner,Consumer
+ORD-000954,2026-07-13,North,Canada,Analytics Pro,Software,10,249,2490.00,1867.50,622.50,Partner,Consumer
+ORD-000955,2025-08-21,East,Japan,Studio Monitor,Electronics,5,320,1600.00,928.00,672.00,Retail,Consumer
+ORD-000956,2025-06-29,East,Japan,Webcam Plus,Electronics,3,95,285.00,176.70,108.30,Online,Consumer
+ORD-000957,2026-03-01,South,Brazil,Standing Desk,Office,3,450,1350.00,1066.50,283.50,Retail,Enterprise
+ORD-000958,2024-04-29,North,Canada,Standing Desk,Office,3,450,1350.00,810.00,540.00,Retail,Business
+ORD-000959,2026-01-12,South,Brazil,Notebook Set,Office,10,18,180.00,122.40,57.60,Retail,Business
+ORD-000960,2026-12-06,East,Japan,Analytics Pro,Software,12,249,2988.00,1703.16,1284.84,Retail,Enterprise
+ORD-000961,2024-09-23,South,Brazil,Webcam Plus,Electronics,6,95,570.00,370.50,199.50,Online,Consumer
+ORD-000962,2024-09-01,East,Japan,Desk Lamp,Office,1,45,45.00,27.45,17.55,Online,Enterprise
+ORD-000963,2024-09-26,East,Japan,Studio Monitor,Electronics,12,320,3840.00,2227.20,1612.80,Retail,Consumer
+ORD-000964,2026-12-24,West,United States,Desk Lamp,Office,10,45,450.00,283.50,166.50,Partner,Business
+ORD-000965,2025-08-17,North,Canada,Analytics Pro,Software,6,249,1494.00,1075.68,418.32,Partner,Enterprise
+ORD-000966,2024-09-10,North,Canada,Desk Lamp,Office,4,45,180.00,95.40,84.60,Online,Enterprise
+ORD-000967,2025-08-23,East,Japan,Standing Desk,Office,4,450,1800.00,1224.00,576.00,Retail,Enterprise
+ORD-000968,2026-11-27,East,Japan,Notebook Set,Office,4,18,72.00,54.00,18.00,Partner,Consumer
+ORD-000969,2026-05-01,East,Japan,Notebook Set,Office,10,18,180.00,97.20,82.80,Retail,Business
+ORD-000970,2026-05-15,North,Canada,Studio Monitor,Electronics,2,320,640.00,339.20,300.80,Partner,Consumer
+ORD-000971,2024-09-21,West,United States,Cloud Suite,Software,12,149,1788.00,947.64,840.36,Partner,Business
+ORD-000972,2024-06-30,South,Brazil,Notebook Set,Office,9,18,162.00,108.54,53.46,Retail,Consumer
+ORD-000973,2026-08-29,South,Brazil,Analytics Pro,Software,6,249,1494.00,926.28,567.72,Retail,Business
+ORD-000974,2024-11-09,South,Brazil,Studio Monitor,Electronics,11,320,3520.00,2076.80,1443.20,Partner,Enterprise
+ORD-000975,2024-09-27,South,Brazil,Studio Monitor,Electronics,7,320,2240.00,1680.00,560.00,Partner,Business
+ORD-000976,2026-10-06,West,United States,Webcam Plus,Electronics,12,95,1140.00,649.80,490.20,Online,Consumer
+ORD-000977,2025-11-07,South,Brazil,Webcam Plus,Electronics,4,95,380.00,209.00,171.00,Retail,Business
+ORD-000978,2024-10-25,North,Canada,Analytics Pro,Software,9,249,2241.00,1344.60,896.40,Partner,Business
+ORD-000979,2026-12-08,East,Japan,Webcam Plus,Electronics,10,95,950.00,579.50,370.50,Online,Enterprise
+ORD-000980,2026-04-18,East,Japan,Desk Lamp,Office,12,45,540.00,356.40,183.60,Retail,Enterprise
+ORD-000981,2024-03-12,West,United States,Notebook Set,Office,3,18,54.00,38.88,15.12,Partner,Consumer
+ORD-000982,2026-10-05,South,Brazil,Webcam Plus,Electronics,8,95,760.00,486.40,273.60,Retail,Business
+ORD-000983,2024-03-31,West,United States,Desk Lamp,Office,11,45,495.00,371.25,123.75,Retail,Enterprise
+ORD-000984,2026-04-27,West,United States,Cloud Suite,Software,1,149,149.00,90.89,58.11,Partner,Consumer
+ORD-000985,2024-01-30,South,Brazil,Notebook Set,Office,2,18,36.00,21.24,14.76,Partner,Enterprise
+ORD-000986,2025-06-24,East,Japan,Desk Lamp,Office,3,45,135.00,95.85,39.15,Partner,Business
+ORD-000987,2024-04-19,West,United States,Notebook Set,Office,7,18,126.00,64.26,61.74,Retail,Business
+ORD-000988,2026-05-08,West,United States,Notebook Set,Office,6,18,108.00,61.56,46.44,Retail,Business
+ORD-000989,2026-02-12,North,Canada,Standing Desk,Office,10,450,4500.00,2835.00,1665.00,Partner,Enterprise
+ORD-000990,2024-03-24,East,Japan,Standing Desk,Office,11,450,4950.00,2821.50,2128.50,Partner,Consumer
+ORD-000991,2026-03-07,East,Japan,Analytics Pro,Software,3,249,747.00,410.85,336.15,Retail,Business
+ORD-000992,2024-12-11,North,Canada,Wireless Keyboard,Electronics,12,79,948.00,663.60,284.40,Retail,Enterprise
+ORD-000993,2025-09-18,West,United States,Notebook Set,Office,1,18,18.00,12.96,5.04,Retail,Business
+ORD-000994,2024-02-05,North,Canada,Desk Lamp,Office,8,45,360.00,183.60,176.40,Retail,Enterprise
+ORD-000995,2025-10-22,North,Canada,Webcam Plus,Electronics,1,95,95.00,52.25,42.75,Partner,Consumer
+ORD-000996,2024-12-15,West,United States,Analytics Pro,Software,12,249,2988.00,1972.08,1015.92,Retail,Business
+ORD-000997,2025-04-11,West,United States,Wireless Keyboard,Electronics,9,79,711.00,526.14,184.86,Partner,Business
+ORD-000998,2026-10-26,East,Japan,Standing Desk,Office,3,450,1350.00,945.00,405.00,Partner,Enterprise
+ORD-000999,2026-05-05,South,Brazil,Desk Lamp,Office,3,45,135.00,87.75,47.25,Retail,Enterprise
+ORD-001000,2024-04-15,West,United States,Desk Lamp,Office,4,45,180.00,93.60,86.40,Retail,Enterprise
+ORD-001001,2026-11-10,South,Brazil,Notebook Set,Office,6,18,108.00,66.96,41.04,Partner,Consumer
+ORD-001002,2026-11-24,South,Brazil,Analytics Pro,Software,6,249,1494.00,1075.68,418.32,Partner,Enterprise
+ORD-001003,2024-12-14,East,Japan,Analytics Pro,Software,5,249,1245.00,796.80,448.20,Partner,Business
+ORD-001004,2024-01-19,North,Canada,Analytics Pro,Software,1,249,249.00,139.44,109.56,Retail,Business
+ORD-001005,2024-12-25,South,Brazil,Studio Monitor,Electronics,5,320,1600.00,816.00,784.00,Retail,Business
+ORD-001006,2026-11-10,West,United States,Desk Lamp,Office,8,45,360.00,183.60,176.40,Online,Enterprise
+ORD-001007,2025-12-18,East,Japan,Cloud Suite,Software,9,149,1341.00,750.96,590.04,Online,Consumer
+ORD-001008,2026-08-30,West,United States,Standing Desk,Office,6,450,2700.00,1458.00,1242.00,Partner,Business
+ORD-001009,2025-12-19,East,Japan,Wireless Keyboard,Electronics,8,79,632.00,385.52,246.48,Partner,Enterprise
+ORD-001010,2025-12-19,South,Brazil,Standing Desk,Office,7,450,3150.00,1953.00,1197.00,Online,Consumer
+ORD-001011,2026-01-29,East,Japan,Studio Monitor,Electronics,4,320,1280.00,780.80,499.20,Retail,Enterprise
+ORD-001012,2024-03-14,North,Canada,Notebook Set,Office,6,18,108.00,64.80,43.20,Retail,Business
+ORD-001013,2024-11-26,East,Japan,Studio Monitor,Electronics,11,320,3520.00,1971.20,1548.80,Online,Business
+ORD-001014,2026-09-09,West,United States,Notebook Set,Office,9,18,162.00,119.88,42.12,Online,Business
+ORD-001015,2026-04-18,North,Canada,Desk Lamp,Office,8,45,360.00,201.60,158.40,Online,Enterprise
+ORD-001016,2026-02-22,North,Canada,Analytics Pro,Software,1,249,249.00,174.30,74.70,Retail,Business
+ORD-001017,2025-03-22,East,Japan,Standing Desk,Office,6,450,2700.00,1566.00,1134.00,Retail,Enterprise
+ORD-001018,2025-10-31,South,Brazil,Desk Lamp,Office,1,45,45.00,30.60,14.40,Online,Consumer
+ORD-001019,2026-09-07,East,Japan,Studio Monitor,Electronics,4,320,1280.00,896.00,384.00,Partner,Consumer
+ORD-001020,2026-04-12,North,Canada,Studio Monitor,Electronics,4,320,1280.00,640.00,640.00,Partner,Enterprise
+ORD-001021,2024-05-29,East,Japan,Cloud Suite,Software,11,149,1639.00,1147.30,491.70,Online,Consumer
+ORD-001022,2024-01-22,South,Brazil,Cloud Suite,Software,10,149,1490.00,1162.20,327.80,Partner,Enterprise
+ORD-001023,2024-02-11,South,Brazil,Analytics Pro,Software,1,249,249.00,191.73,57.27,Retail,Business
+ORD-001024,2025-05-09,East,Japan,Wireless Keyboard,Electronics,10,79,790.00,489.80,300.20,Online,Business
+ORD-001025,2025-05-06,East,Japan,Standing Desk,Office,10,450,4500.00,3240.00,1260.00,Online,Enterprise
+ORD-001026,2025-03-20,West,United States,Studio Monitor,Electronics,4,320,1280.00,729.60,550.40,Online,Enterprise
+ORD-001027,2024-08-27,North,Canada,Standing Desk,Office,2,450,900.00,621.00,279.00,Online,Business
+ORD-001028,2025-11-06,North,Canada,Notebook Set,Office,8,18,144.00,89.28,54.72,Partner,Consumer
+ORD-001029,2025-05-08,East,Japan,Cloud Suite,Software,8,149,1192.00,607.92,584.08,Partner,Enterprise
+ORD-001030,2024-09-26,West,United States,Webcam Plus,Electronics,8,95,760.00,501.60,258.40,Partner,Enterprise
+ORD-001031,2026-03-09,East,Japan,Standing Desk,Office,11,450,4950.00,2772.00,2178.00,Online,Consumer
+ORD-001032,2026-11-25,North,Canada,Webcam Plus,Electronics,6,95,570.00,347.70,222.30,Partner,Business
+ORD-001033,2025-11-06,West,United States,Webcam Plus,Electronics,3,95,285.00,148.20,136.80,Partner,Business
+ORD-001034,2025-12-25,North,Canada,Desk Lamp,Office,11,45,495.00,386.10,108.90,Partner,Consumer
+ORD-001035,2026-06-15,West,United States,Cloud Suite,Software,1,149,149.00,111.75,37.25,Retail,Enterprise
+ORD-001036,2024-03-17,North,Canada,Standing Desk,Office,4,450,1800.00,1332.00,468.00,Retail,Enterprise
+ORD-001037,2025-04-17,West,United States,Standing Desk,Office,2,450,900.00,675.00,225.00,Online,Business
+ORD-001038,2025-04-24,East,Japan,Analytics Pro,Software,9,249,2241.00,1613.52,627.48,Partner,Consumer
+ORD-001039,2025-08-25,South,Brazil,Desk Lamp,Office,4,45,180.00,115.20,64.80,Retail,Consumer
+ORD-001040,2026-07-18,South,Brazil,Webcam Plus,Electronics,2,95,190.00,96.90,93.10,Retail,Enterprise
+ORD-001041,2024-09-24,West,United States,Analytics Pro,Software,6,249,1494.00,1030.86,463.14,Online,Business
+ORD-001042,2024-04-11,West,United States,Notebook Set,Office,1,18,18.00,9.72,8.28,Online,Business
+ORD-001043,2026-03-15,North,Canada,Notebook Set,Office,3,18,54.00,33.48,20.52,Retail,Business
+ORD-001044,2026-02-18,West,United States,Studio Monitor,Electronics,1,320,320.00,217.60,102.40,Online,Enterprise
+ORD-001045,2025-03-02,North,Canada,Wireless Keyboard,Electronics,6,79,474.00,317.58,156.42,Retail,Business
+ORD-001046,2026-03-01,South,Brazil,Cloud Suite,Software,6,149,894.00,455.94,438.06,Online,Consumer
+ORD-001047,2024-05-08,West,United States,Desk Lamp,Office,2,45,90.00,62.10,27.90,Partner,Enterprise
+ORD-001048,2026-01-13,South,Brazil,Notebook Set,Office,7,18,126.00,80.64,45.36,Partner,Business
+ORD-001049,2026-08-05,South,Brazil,Analytics Pro,Software,9,249,2241.00,1591.11,649.89,Partner,Consumer
+ORD-001050,2025-11-04,South,Brazil,Wireless Keyboard,Electronics,4,79,316.00,246.48,69.52,Retail,Business
+ORD-001051,2024-10-03,North,Canada,Cloud Suite,Software,4,149,596.00,464.88,131.12,Partner,Enterprise
+ORD-001052,2024-04-26,North,Canada,Studio Monitor,Electronics,6,320,1920.00,1459.20,460.80,Online,Consumer
+ORD-001053,2024-05-11,East,Japan,Studio Monitor,Electronics,6,320,1920.00,1267.20,652.80,Retail,Consumer
+ORD-001054,2026-08-15,North,Canada,Notebook Set,Office,3,18,54.00,40.50,13.50,Partner,Business
+ORD-001055,2026-02-14,West,United States,Standing Desk,Office,12,450,5400.00,3186.00,2214.00,Online,Consumer
+ORD-001056,2026-08-20,North,Canada,Analytics Pro,Software,4,249,996.00,517.92,478.08,Online,Business
+ORD-001057,2026-03-21,North,Canada,Wireless Keyboard,Electronics,3,79,237.00,127.98,109.02,Retail,Enterprise
+ORD-001058,2025-07-16,North,Canada,Standing Desk,Office,5,450,2250.00,1710.00,540.00,Partner,Consumer
+ORD-001059,2025-09-07,South,Brazil,Analytics Pro,Software,9,249,2241.00,1747.98,493.02,Retail,Business
+ORD-001060,2024-06-28,North,Canada,Studio Monitor,Electronics,11,320,3520.00,2675.20,844.80,Partner,Business
+ORD-001061,2024-04-03,South,Brazil,Analytics Pro,Software,8,249,1992.00,1513.92,478.08,Online,Enterprise
+ORD-001062,2026-05-02,South,Brazil,Analytics Pro,Software,9,249,2241.00,1322.19,918.81,Partner,Business
+ORD-001063,2024-12-19,West,United States,Cloud Suite,Software,4,149,596.00,327.80,268.20,Partner,Consumer
+ORD-001064,2024-04-30,West,United States,Desk Lamp,Office,2,45,90.00,50.40,39.60,Online,Business
+ORD-001065,2024-07-20,East,Japan,Studio Monitor,Electronics,12,320,3840.00,2150.40,1689.60,Partner,Consumer
+ORD-001066,2026-01-09,South,Brazil,Webcam Plus,Electronics,12,95,1140.00,741.00,399.00,Retail,Business
+ORD-001067,2026-03-08,West,United States,Standing Desk,Office,1,450,450.00,328.50,121.50,Partner,Enterprise
+ORD-001068,2024-03-19,North,Canada,Desk Lamp,Office,1,45,45.00,27.90,17.10,Retail,Enterprise
+ORD-001069,2025-03-17,South,Brazil,Standing Desk,Office,1,450,450.00,315.00,135.00,Online,Business
+ORD-001070,2026-10-18,East,Japan,Cloud Suite,Software,4,149,596.00,399.32,196.68,Retail,Enterprise
+ORD-001071,2024-03-17,East,Japan,Webcam Plus,Electronics,12,95,1140.00,889.20,250.80,Online,Business
+ORD-001072,2024-09-24,East,Japan,Analytics Pro,Software,8,249,1992.00,1454.16,537.84,Partner,Business
+ORD-001073,2026-03-03,South,Brazil,Studio Monitor,Electronics,4,320,1280.00,780.80,499.20,Online,Consumer
+ORD-001074,2026-08-28,West,United States,Studio Monitor,Electronics,7,320,2240.00,1478.40,761.60,Retail,Business
+ORD-001075,2026-12-13,West,United States,Studio Monitor,Electronics,5,320,1600.00,928.00,672.00,Partner,Consumer
+ORD-001076,2026-05-23,South,Brazil,Webcam Plus,Electronics,6,95,570.00,427.50,142.50,Partner,Enterprise
+ORD-001077,2025-12-09,West,United States,Cloud Suite,Software,12,149,1788.00,929.76,858.24,Partner,Enterprise
+ORD-001078,2024-01-31,East,Japan,Webcam Plus,Electronics,6,95,570.00,330.60,239.40,Partner,Consumer
+ORD-001079,2026-08-01,West,United States,Notebook Set,Office,12,18,216.00,112.32,103.68,Partner,Enterprise
+ORD-001080,2026-08-31,North,Canada,Cloud Suite,Software,2,149,298.00,172.84,125.16,Online,Consumer
+ORD-001081,2024-02-14,West,United States,Analytics Pro,Software,5,249,1245.00,734.55,510.45,Retail,Consumer
+ORD-001082,2024-07-22,West,United States,Webcam Plus,Electronics,4,95,380.00,235.60,144.40,Retail,Enterprise
+ORD-001083,2024-12-21,North,Canada,Studio Monitor,Electronics,8,320,2560.00,1894.40,665.60,Online,Enterprise
+ORD-001084,2024-06-06,South,Brazil,Notebook Set,Office,9,18,162.00,87.48,74.52,Online,Consumer
+ORD-001085,2025-05-22,West,United States,Wireless Keyboard,Electronics,12,79,948.00,606.72,341.28,Partner,Business
+ORD-001086,2025-10-08,East,Japan,Cloud Suite,Software,3,149,447.00,263.73,183.27,Partner,Consumer
+ORD-001087,2025-03-28,North,Canada,Cloud Suite,Software,1,149,149.00,114.73,34.27,Partner,Business
+ORD-001088,2025-06-11,West,United States,Analytics Pro,Software,1,249,249.00,136.95,112.05,Retail,Business
+ORD-001089,2026-04-14,East,Japan,Standing Desk,Office,7,450,3150.00,2268.00,882.00,Partner,Consumer
+ORD-001090,2024-11-14,West,United States,Webcam Plus,Electronics,1,95,95.00,67.45,27.55,Partner,Enterprise
+ORD-001091,2025-04-11,East,Japan,Studio Monitor,Electronics,9,320,2880.00,1468.80,1411.20,Retail,Enterprise
+ORD-001092,2025-02-18,East,Japan,Cloud Suite,Software,8,149,1192.00,786.72,405.28,Partner,Consumer
+ORD-001093,2024-01-03,East,Japan,Notebook Set,Office,6,18,108.00,82.08,25.92,Retail,Consumer
+ORD-001094,2026-01-11,South,Brazil,Wireless Keyboard,Electronics,9,79,711.00,362.61,348.39,Retail,Consumer
+ORD-001095,2025-09-16,North,Canada,Webcam Plus,Electronics,3,95,285.00,159.60,125.40,Online,Business
+ORD-001096,2026-11-02,North,Canada,Studio Monitor,Electronics,11,320,3520.00,2358.40,1161.60,Online,Enterprise
+ORD-001097,2024-01-27,West,United States,Webcam Plus,Electronics,7,95,665.00,465.50,199.50,Retail,Business
+ORD-001098,2024-03-19,North,Canada,Analytics Pro,Software,9,249,2241.00,1456.65,784.35,Online,Enterprise
+ORD-001099,2026-08-03,West,United States,Studio Monitor,Electronics,3,320,960.00,508.80,451.20,Partner,Enterprise
+ORD-001100,2025-03-30,South,Brazil,Cloud Suite,Software,9,149,1341.00,710.73,630.27,Online,Enterprise
+ORD-001101,2024-06-15,South,Brazil,Cloud Suite,Software,4,149,596.00,470.84,125.16,Partner,Consumer
+ORD-001102,2025-12-05,West,United States,Webcam Plus,Electronics,7,95,665.00,472.15,192.85,Online,Enterprise
+ORD-001103,2026-10-16,East,Japan,Analytics Pro,Software,9,249,2241.00,1613.52,627.48,Online,Business
+ORD-001104,2026-09-17,North,Canada,Standing Desk,Office,1,450,450.00,229.50,220.50,Partner,Business
+ORD-001105,2026-08-29,East,Japan,Wireless Keyboard,Electronics,2,79,158.00,96.38,61.62,Partner,Enterprise
+ORD-001106,2024-04-24,West,United States,Notebook Set,Office,10,18,180.00,120.60,59.40,Online,Enterprise
+ORD-001107,2025-12-12,West,United States,Cloud Suite,Software,1,149,149.00,96.85,52.15,Retail,Consumer
+ORD-001108,2025-09-07,West,United States,Wireless Keyboard,Electronics,12,79,948.00,511.92,436.08,Retail,Business
+ORD-001109,2025-10-16,West,United States,Wireless Keyboard,Electronics,2,79,158.00,123.24,34.76,Retail,Business
+ORD-001110,2026-11-23,West,United States,Cloud Suite,Software,12,149,1788.00,965.52,822.48,Partner,Business
+ORD-001111,2026-05-17,South,Brazil,Desk Lamp,Office,12,45,540.00,405.00,135.00,Partner,Business
+ORD-001112,2025-05-17,East,Japan,Cloud Suite,Software,9,149,1341.00,1059.39,281.61,Online,Enterprise
+ORD-001113,2025-08-04,West,United States,Desk Lamp,Office,11,45,495.00,331.65,163.35,Online,Enterprise
+ORD-001114,2024-10-26,East,Japan,Wireless Keyboard,Electronics,2,79,158.00,79.00,79.00,Online,Business
+ORD-001115,2024-04-07,North,Canada,Studio Monitor,Electronics,4,320,1280.00,768.00,512.00,Online,Consumer
+ORD-001116,2026-06-30,East,Japan,Notebook Set,Office,9,18,162.00,95.58,66.42,Partner,Consumer
+ORD-001117,2026-01-13,East,Japan,Standing Desk,Office,6,450,2700.00,1701.00,999.00,Partner,Consumer
+ORD-001118,2024-05-25,West,United States,Notebook Set,Office,12,18,216.00,162.00,54.00,Partner,Consumer
+ORD-001119,2025-03-23,East,Japan,Webcam Plus,Electronics,10,95,950.00,750.50,199.50,Online,Business
+ORD-001120,2025-08-09,West,United States,Cloud Suite,Software,7,149,1043.00,584.08,458.92,Partner,Consumer
+ORD-001121,2024-11-08,North,Canada,Desk Lamp,Office,1,45,45.00,31.50,13.50,Partner,Consumer
+ORD-001122,2025-04-28,North,Canada,Wireless Keyboard,Electronics,10,79,790.00,450.30,339.70,Online,Enterprise
+ORD-001123,2026-10-21,East,Japan,Webcam Plus,Electronics,2,95,190.00,121.60,68.40,Retail,Business
+ORD-001124,2026-06-16,West,United States,Analytics Pro,Software,11,249,2739.00,1889.91,849.09,Online,Business
+ORD-001125,2024-03-22,East,Japan,Cloud Suite,Software,8,149,1192.00,750.96,441.04,Retail,Business
+ORD-001126,2025-10-19,East,Japan,Standing Desk,Office,8,450,3600.00,2340.00,1260.00,Partner,Business
+ORD-001127,2025-09-03,East,Japan,Analytics Pro,Software,9,249,2241.00,1546.29,694.71,Partner,Consumer
+ORD-001128,2026-05-09,West,United States,Studio Monitor,Electronics,6,320,1920.00,1459.20,460.80,Online,Business
+ORD-001129,2025-05-16,East,Japan,Cloud Suite,Software,7,149,1043.00,552.79,490.21,Retail,Enterprise
+ORD-001130,2024-07-20,East,Japan,Wireless Keyboard,Electronics,8,79,632.00,398.16,233.84,Partner,Consumer
+ORD-001131,2026-08-06,West,United States,Analytics Pro,Software,12,249,2988.00,2121.48,866.52,Partner,Consumer
+ORD-001132,2024-05-21,West,United States,Standing Desk,Office,12,450,5400.00,3240.00,2160.00,Partner,Consumer
+ORD-001133,2024-11-16,East,Japan,Notebook Set,Office,6,18,108.00,76.68,31.32,Retail,Enterprise
+ORD-001134,2026-05-19,South,Brazil,Wireless Keyboard,Electronics,4,79,316.00,199.08,116.92,Partner,Enterprise
+ORD-001135,2025-04-09,East,Japan,Analytics Pro,Software,2,249,498.00,388.44,109.56,Retail,Consumer
+ORD-001136,2024-02-23,East,Japan,Notebook Set,Office,8,18,144.00,96.48,47.52,Partner,Business
+ORD-001137,2026-12-13,South,Brazil,Notebook Set,Office,2,18,36.00,24.84,11.16,Retail,Consumer
+ORD-001138,2025-10-02,South,Brazil,Standing Desk,Office,6,450,2700.00,2079.00,621.00,Retail,Consumer
+ORD-001139,2024-10-23,South,Brazil,Cloud Suite,Software,9,149,1341.00,750.96,590.04,Retail,Business
+ORD-001140,2025-02-24,West,United States,Notebook Set,Office,4,18,72.00,45.36,26.64,Partner,Consumer
+ORD-001141,2026-11-25,South,Brazil,Studio Monitor,Electronics,1,320,320.00,198.40,121.60,Partner,Business
+ORD-001142,2024-08-04,West,United States,Notebook Set,Office,4,18,72.00,54.72,17.28,Online,Consumer
+ORD-001143,2026-05-09,West,United States,Standing Desk,Office,7,450,3150.00,2142.00,1008.00,Retail,Consumer
+ORD-001144,2025-03-10,North,Canada,Studio Monitor,Electronics,7,320,2240.00,1769.60,470.40,Retail,Enterprise
+ORD-001145,2026-08-25,West,United States,Wireless Keyboard,Electronics,7,79,553.00,403.69,149.31,Online,Consumer
+ORD-001146,2024-04-08,North,Canada,Cloud Suite,Software,7,149,1043.00,552.79,490.21,Partner,Enterprise
+ORD-001147,2025-01-22,South,Brazil,Analytics Pro,Software,12,249,2988.00,2211.12,776.88,Retail,Consumer
+ORD-001148,2026-04-26,North,Canada,Notebook Set,Office,6,18,108.00,58.32,49.68,Partner,Business
+ORD-001149,2026-12-08,East,Japan,Cloud Suite,Software,10,149,1490.00,1117.50,372.50,Online,Enterprise
+ORD-001150,2025-06-14,West,United States,Cloud Suite,Software,4,149,596.00,303.96,292.04,Online,Enterprise
+ORD-001151,2025-07-29,South,Brazil,Webcam Plus,Electronics,4,95,380.00,277.40,102.60,Partner,Consumer
+ORD-001152,2026-02-12,North,Canada,Cloud Suite,Software,11,149,1639.00,1098.13,540.87,Retail,Consumer
+ORD-001153,2025-08-09,North,Canada,Webcam Plus,Electronics,6,95,570.00,336.30,233.70,Partner,Enterprise
+ORD-001154,2025-04-17,West,United States,Webcam Plus,Electronics,3,95,285.00,219.45,65.55,Online,Consumer
+ORD-001155,2025-08-15,North,Canada,Notebook Set,Office,3,18,54.00,34.02,19.98,Retail,Enterprise
+ORD-001156,2024-07-20,West,United States,Studio Monitor,Electronics,7,320,2240.00,1209.60,1030.40,Online,Enterprise
+ORD-001157,2025-02-20,North,Canada,Webcam Plus,Electronics,2,95,190.00,104.50,85.50,Online,Enterprise
+ORD-001158,2026-02-26,West,United States,Webcam Plus,Electronics,6,95,570.00,438.90,131.10,Online,Business
+ORD-001159,2025-05-09,South,Brazil,Cloud Suite,Software,6,149,894.00,464.88,429.12,Retail,Consumer
+ORD-001160,2026-06-24,East,Japan,Cloud Suite,Software,10,149,1490.00,1162.20,327.80,Partner,Business
+ORD-001161,2026-04-12,South,Brazil,Studio Monitor,Electronics,5,320,1600.00,1200.00,400.00,Retail,Consumer
+ORD-001162,2025-10-26,South,Brazil,Notebook Set,Office,3,18,54.00,27.54,26.46,Online,Business
+ORD-001163,2024-08-15,North,Canada,Notebook Set,Office,9,18,162.00,113.40,48.60,Retail,Enterprise
+ORD-001164,2026-08-30,South,Brazil,Notebook Set,Office,3,18,54.00,37.80,16.20,Partner,Consumer
+ORD-001165,2024-05-31,East,Japan,Analytics Pro,Software,11,249,2739.00,1643.40,1095.60,Partner,Consumer
+ORD-001166,2025-11-15,East,Japan,Wireless Keyboard,Electronics,8,79,632.00,347.60,284.40,Online,Consumer
+ORD-001167,2025-04-07,East,Japan,Webcam Plus,Electronics,3,95,285.00,176.70,108.30,Partner,Business
+ORD-001168,2024-11-14,North,Canada,Desk Lamp,Office,12,45,540.00,270.00,270.00,Online,Enterprise
+ORD-001169,2026-02-19,West,United States,Studio Monitor,Electronics,12,320,3840.00,2304.00,1536.00,Online,Consumer
+ORD-001170,2026-10-10,South,Brazil,Notebook Set,Office,7,18,126.00,65.52,60.48,Retail,Enterprise
+ORD-001171,2026-02-20,South,Brazil,Studio Monitor,Electronics,10,320,3200.00,1760.00,1440.00,Retail,Consumer
+ORD-001172,2026-05-07,West,United States,Desk Lamp,Office,8,45,360.00,205.20,154.80,Online,Business
+ORD-001173,2026-01-20,South,Brazil,Standing Desk,Office,9,450,4050.00,2997.00,1053.00,Retail,Enterprise
+ORD-001174,2026-09-20,South,Brazil,Desk Lamp,Office,8,45,360.00,216.00,144.00,Online,Consumer
+ORD-001175,2026-05-20,South,Brazil,Cloud Suite,Software,4,149,596.00,381.44,214.56,Retail,Business
+ORD-001176,2025-10-16,South,Brazil,Webcam Plus,Electronics,11,95,1045.00,543.40,501.60,Partner,Business
+ORD-001177,2025-10-17,North,Canada,Cloud Suite,Software,7,149,1043.00,792.68,250.32,Partner,Consumer
+ORD-001178,2024-05-06,North,Canada,Notebook Set,Office,12,18,216.00,133.92,82.08,Partner,Consumer
+ORD-001179,2026-04-06,South,Brazil,Desk Lamp,Office,11,45,495.00,331.65,163.35,Retail,Consumer
+ORD-001180,2024-08-15,East,Japan,Standing Desk,Office,9,450,4050.00,2713.50,1336.50,Online,Enterprise
+ORD-001181,2024-11-04,East,Japan,Studio Monitor,Electronics,2,320,640.00,448.00,192.00,Partner,Consumer
+ORD-001182,2025-12-02,West,United States,Standing Desk,Office,1,450,450.00,297.00,153.00,Partner,Business
+ORD-001183,2024-07-10,East,Japan,Wireless Keyboard,Electronics,12,79,948.00,597.24,350.76,Retail,Business
+ORD-001184,2024-02-24,West,United States,Desk Lamp,Office,12,45,540.00,378.00,162.00,Online,Enterprise
+ORD-001185,2024-07-25,North,Canada,Analytics Pro,Software,8,249,1992.00,1175.28,816.72,Partner,Enterprise
+ORD-001186,2025-06-26,South,Brazil,Analytics Pro,Software,12,249,2988.00,2241.00,747.00,Online,Business
+ORD-001187,2024-01-26,South,Brazil,Notebook Set,Office,6,18,108.00,78.84,29.16,Partner,Business
+ORD-001188,2024-12-09,North,Canada,Desk Lamp,Office,10,45,450.00,328.50,121.50,Online,Business
+ORD-001189,2024-08-06,West,United States,Webcam Plus,Electronics,8,95,760.00,509.20,250.80,Partner,Consumer
+ORD-001190,2026-03-03,West,United States,Standing Desk,Office,1,450,450.00,247.50,202.50,Retail,Enterprise
+ORD-001191,2025-06-22,North,Canada,Analytics Pro,Software,3,249,747.00,493.02,253.98,Partner,Business
+ORD-001192,2024-06-28,North,Canada,Wireless Keyboard,Electronics,4,79,316.00,164.32,151.68,Online,Consumer
+ORD-001193,2024-06-22,East,Japan,Cloud Suite,Software,5,149,745.00,387.40,357.60,Online,Business
+ORD-001194,2024-08-09,West,United States,Webcam Plus,Electronics,4,95,380.00,239.40,140.60,Retail,Enterprise
+ORD-001195,2024-07-24,East,Japan,Analytics Pro,Software,3,249,747.00,403.38,343.62,Partner,Consumer
+ORD-001196,2024-01-02,West,United States,Cloud Suite,Software,2,149,298.00,226.48,71.52,Partner,Consumer
+ORD-001197,2026-02-16,West,United States,Studio Monitor,Electronics,4,320,1280.00,947.20,332.80,Partner,Business
+ORD-001198,2025-03-04,East,Japan,Desk Lamp,Office,1,45,45.00,26.10,18.90,Partner,Consumer
+ORD-001199,2025-02-15,West,United States,Cloud Suite,Software,5,149,745.00,379.95,365.05,Retail,Consumer
+ORD-001200,2025-11-21,North,Canada,Standing Desk,Office,10,450,4500.00,3555.00,945.00,Partner,Enterprise

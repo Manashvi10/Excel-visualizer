@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "AI Stack (FreeLLMAPI + llm-proxy)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [{ "key": "baseUrl", "value": "http://72.62.135.252:8080" }],
+  "item": [
+    {
+      "name": "Health",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/health" }
+    },
+    {
+      "name": "Chat - any question",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/chat",
+        "body": { "mode": "raw", "raw": "{\n  \"message\": \"Explain React useEffect in simple words with one example\"\n}" }
+      }
+    },
+    {
+      "name": "Chat - with history",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/chat",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"history\": [\n    { \"role\": \"user\", \"content\": \"Mera naam Nikhil hai\" },\n    { \"role\": \"assistant\", \"content\": \"Hello Nikhil! Kaise madad karun?\" }\n  ],\n  \"message\": \"Mera naam kya hai?\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Analyze - chart spec",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/analyze",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Show total revenue by region for 2025, highest first\",\n  \"columns\": [\n    { \"name\": \"date\", \"type\": \"date\" },\n    { \"name\": \"region\", \"type\": \"string\" },\n    { \"name\": \"product\", \"type\": \"string\" },\n    { \"name\": \"revenue\", \"type\": \"number\" },\n    { \"name\": \"year\", \"type\": \"number\" }\n  ],\n  \"sample\": [\n    { \"date\": \"2025-01-05\", \"region\": \"North\", \"product\": \"Laptop\", \"revenue\": 52000, \"year\": 2025 },\n    { \"date\": \"2025-01-07\", \"region\": \"South\", \"product\": \"Phone\", \"revenue\": 18000, \"year\": 2025 },\n    { \"date\": \"2024-12-20\", \"region\": \"West\", \"product\": \"Tablet\", \"revenue\": 25000, \"year\": 2024 }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "Analyze - unrelated question",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/api/analyze",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What is the weather in Delhi today?\",\n  \"columns\": [\n    { \"name\": \"region\", \"type\": \"string\" },\n    { \"name\": \"revenue\", \"type\": \"number\" }\n  ],\n  \"sample\": []\n}"
+        }
+      }
+    }
+  ]
+}
