@@ -24,6 +24,12 @@ Open `http://localhost:3000`. Node 22.18+ or 24 is recommended for the built-in 
 
 The supplied upstream uses **plain HTTP**. Raw CSV rows are never sent, but column names, questions and chart/filter configuration can still be sensitive. Configure `AI_STACK_BASE_URL` to a trusted HTTPS service before submitting sensitive information. The local server has request-size/concurrency limits, a 90-second timeout, disconnect cancellation and at most one model-output correction retry.
 
+### Public HTTP deployments
+
+Browser `crypto.randomUUID()` is restricted to secure contexts (HTTPS or localhost), so it is missing on URLs such as `http://<server-ip>:4173`. All application IDs use `src/core/id.ts`: native UUIDs when available, otherwise version-4 UUIDs built with `crypto.getRandomValues()`, without insecure random-number fallbacks. This covers worker requests, chat, chart widgets, save/share and dashboard imports/duplicates. Clipboard APIs may also be unavailable on HTTP; sharing already falls back to a JSON configuration download.
+
+After deploying changes, rebuild the frontend and restart the process serving it. For the existing Vite-preview setup: `npm ci`, `npm run build`, then `npm run preview -- --port 4173`. Reload the browser with Ctrl+Shift+R to discard old JavaScript. Vite preview is for build inspection, not a hardened production server; use `npm start` behind an HTTPS reverse proxy for production. HTTPS is recommended even though the ID fallback supports HTTP.
+
 ## Try it
 
 1. Open **Analyze Data** and click **Load sample data** (1,200 rows), or drop/upload a CSV.

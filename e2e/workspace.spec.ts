@@ -4,6 +4,24 @@ const browserErrors=new WeakMap<import('@playwright/test').Page,string[]>();
 test.beforeEach(({page})=>{const errors:string[]=[];browserErrors.set(page,errors);page.on('pageerror',e=>errors.push(e.message));});
 test.afterEach(({page})=>{expect(browserErrors.get(page)).toEqual([]);});
 test('share link contains configuration only and recipient loads their CSV',async({page,context})=>{await context.grantPermissions(['clipboard-read','clipboard-write']);await sample(page);await ask(page,'Show total revenue by region');await expect(page.locator('.chart-card')).toHaveCount(1);await page.getByRole('button',{name:'Share dashboard configuration'}).click();await expect(page.getByText('Configuration link copied. No dataset is included.')).toBeVisible();const url=await page.evaluate(()=>navigator.clipboard.readText());const config=decodeShare(decodeURIComponent(new URL(url).hash.slice(11)));expect(Object.keys(config).sort()).toEqual(['datasetName','id','name','updated','widgets']);expect(config.widgets).toHaveLength(1);const recipient=await context.newPage();await recipient.goto(url);await expect(recipient.getByText('No dataset connected')).toBeVisible();await recipient.getByRole('button',{name:'Load sample data'}).click();await expect(recipient.getByText('1,200 matching rows · 4 groups')).toBeVisible();});
+test('upload, chat and dashboard IDs work without crypto.randomUUID',async({page})=>{
+ await page.addInitScript(()=>Object.defineProperty(globalThis.crypto,'randomUUID',{value:undefined,configurable:true}));
+ await sample(page);
+ await expect(page.locator('.dataset-bar')).toContainText('sales-demo.csv');
+ expect(await page.evaluate(()=>typeof globalThis.crypto.randomUUID)).toBe('undefined');
+ await ask(page,'Show total revenue by region');
+ await expect(page.getByText('1,200 matching rows · 4 groups')).toBeVisible();
+ await ask(page,'Change the current chart to a line chart');
+ await expect(page.locator('.chart-card').getByLabel('Chart type')).toHaveValue('line');
+ await expect(page.locator('.chart-card')).toHaveCount(1);
+ await page.getByRole('button',{name:'Save dashboard',exact:true}).click();
+ await page.getByLabel('Dashboard name').fill('HTTP dashboard');
+ await page.getByRole('dialog').getByRole('button',{name:'Save dashboard'}).click();
+ await page.getByRole('link',{name:'My Dashboards'}).click();
+ await expect(page.getByRole('heading',{name:'HTTP dashboard',exact:true})).toBeVisible();
+ await page.getByRole('button',{name:/Duplicate/}).first().click();
+ await expect(page.locator('.saved-card')).toHaveCount(2);
+});
 async function sample(page:import('@playwright/test').Page){await page.goto('/analyze');await page.getByRole('button',{name:'Load sample data'}).click();await expect(page.getByText('1,200 rows',{exact:false}).first()).toBeVisible();}
 async function ask(page:import('@playwright/test').Page,text:string){await page.getByLabel('Ask about your data').fill(text);await page.getByRole('button',{name:'Send question'}).click();}
 test('sample produces real chart and follow-ups preserve widget identity',async({page})=>{const external:string[]=[];page.on('request',r=>{if(!r.url().startsWith('http://127.0.0.1:5173'))external.push(r.url());});await sample(page);await ask(page,'Show total revenue by region');const chart=page.getByRole('article',{name:'Show total revenue by region'});await expect(chart).toBeVisible();await expect(chart.getByText('1,200 matching rows · 4 groups')).toBeVisible();await ask(page,'Change the current chart to a line chart');await expect(chart.getByLabel('Chart type')).toHaveValue('line');await ask(page,'Show only 2025 data');await expect(chart.getByText('order_date year 2025')).toBeVisible();await expect(page.locator('.chart-card')).toHaveCount(1);expect(external).toEqual([]);await page.screenshot({path:'test-results/workspace-desktop.png',fullPage:true});});
