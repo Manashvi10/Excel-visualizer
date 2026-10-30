@@ -41,6 +41,8 @@ After deploying changes, rebuild the frontend and restart the process serving it
 7. Save a dashboard with the top-bar action. **My Dashboards** supports open, rename, duplicate, delete, and configuration import. Current chart configuration also survives reloads, but CSV rows do not: load the corresponding file again.
 8. **Data Explorer** offers worker-backed search, column text filters, sorting, and virtual scrolling.
 
+Uploading a CSV makes its rows available in Data Explorer; it does not automatically invent a dashboard. Ask a question or use a suggested prompt in Analyze Data to create a chart. Analysis continues when switching to Data Explorer or another page. Return to Analyze Data to view the chart or use Stop; replacing the dataset cancels the old analysis with an explanation. A full browser refresh still ends the in-memory data session.
+
 Enter submits a question; Shift+Enter inserts a newline. Stop cancels the active request. Theme persists across reloads. Icon actions have accessible names/tooltips. Destructive user actions request confirmation.
 
 ## Actual CSV deliverables

@@ -22,6 +22,27 @@ test('upload, chat and dashboard IDs work without crypto.randomUUID',async({page
  await page.getByRole('button',{name:/Duplicate/}).first().click();
  await expect(page.locator('.saved-card')).toHaveCount(2);
 });
+test('analysis survives Data Explorer navigation and Stop still works after returning',async({page})=>{
+ await sample(page);
+ await expect(page.locator('.dataset-bar')).toContainText('sales-demo.csv');
+ await page.clock.install();await page.clock.pauseAt(new Date(Date.now()+1000));
+ await ask(page,'Show total revenue by region');
+ await expect(page.getByRole('button',{name:'Stop generation'})).toBeVisible();
+ await page.getByRole('link',{name:'Data Explorer'}).click();
+ await expect(page.getByRole('heading',{name:'Explore your data'})).toBeVisible();
+ await page.getByRole('link',{name:'Analyze Data'}).click();
+ await expect(page.getByRole('button',{name:'Stop generation'})).toBeVisible();
+ await page.clock.runFor(1000);
+ await expect(page.getByText('1,200 matching rows · 4 groups')).toBeVisible();
+ await ask(page,'Show monthly revenue');
+ await page.getByRole('link',{name:'Data Explorer'}).click();
+ await expect(page.getByRole('heading',{name:'Explore your data'})).toBeVisible();
+ await page.getByRole('link',{name:'Analyze Data'}).click();
+ await page.getByRole('button',{name:'Stop generation'}).click();
+ await page.clock.runFor(1000);
+ await expect(page.locator('.chart-card')).toHaveCount(1);
+ await expect(page.getByText('Analysis stopped.',{exact:false})).toBeVisible();
+});
 async function sample(page:import('@playwright/test').Page){await page.goto('/analyze');await page.getByRole('button',{name:'Load sample data'}).click();await expect(page.getByText('1,200 rows',{exact:false}).first()).toBeVisible();}
 async function ask(page:import('@playwright/test').Page,text:string){await page.getByLabel('Ask about your data').fill(text);await page.getByRole('button',{name:'Send question'}).click();}
 test('sample produces real chart and follow-ups preserve widget identity',async({page})=>{const external:string[]=[];page.on('request',r=>{if(!r.url().startsWith('http://127.0.0.1:5173'))external.push(r.url());});await sample(page);await ask(page,'Show total revenue by region');const chart=page.getByRole('article',{name:'Show total revenue by region'});await expect(chart).toBeVisible();await expect(chart.getByText('1,200 matching rows · 4 groups')).toBeVisible();await ask(page,'Change the current chart to a line chart');await expect(chart.getByLabel('Chart type')).toHaveValue('line');await ask(page,'Show only 2025 data');await expect(chart.getByText('order_date year 2025')).toBeVisible();await expect(page.locator('.chart-card')).toHaveCount(1);expect(external).toEqual([]);await page.screenshot({path:'test-results/workspace-desktop.png',fullPage:true});});

@@ -16,11 +16,16 @@ MockAIProvider uses deterministic rules isolated from React and the analysis eng
 - `src/core/engine.ts`: CSV parsing, inference, filtering, date grouping, aggregation, table queries.
 - `src/core/protocol.ts`: discriminated worker request/response messages and request IDs.
 - `src/services/worker.ts`: lazy worker lifecycle, promises, AbortSignal handling, stale response suppression, crash recovery.
+- `src/services/analysis.ts`: application-scoped request lifecycle, provider/worker orchestration, duplicate prevention, cancellation, stale-response protection and chart commits independent of the current route.
 - `src/providers/ai.ts`: provider interfaces, mock rules, HTTP adapter, prompt suggestions.
 - `src/state/store.ts`: shared dataset metadata, bounded conversations, widgets/layouts, selected chart, aggregate cache, UI status/theme, saved dashboards, bounded undo.
 - `src/services/persistence.ts`: versioned Zod-validated localStorage, optional IndexedDB file, configuration encoding.
 - `src/components`: analyst, canvas, chart widget, upload, table explorer, dashboard library, Radix/variant-based UI primitive.
 - `src/App.tsx`: shell, routing, overview/settings, save dialog, share/import recovery.
+
+## Analysis lifecycle
+
+Analysis belongs to the application service, not the Assistant component. Navigating to Data Explorer, Settings or the dashboard library does not abort the AI request or clear progress. Completed charts, responses and errors commit to Redux even when Analyze Data is not mounted. Returning restores the progress/Stop control or completed visualization. Retry derives its question from bounded Redux conversation history, not page-local state. Stop, dataset replacement, and starting a new conversation invalidate the active run; late provider/worker results cannot overwrite a newer analysis. Background errors produce a toast and remain recoverable in the assistant. A full browser reload still ends the in-memory session.
 
 ## Worker lifecycle and concurrency
 
